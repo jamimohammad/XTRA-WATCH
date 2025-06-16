@@ -236,3 +236,80 @@ margin-top: 120px;
     text-decoration: none;
     color: black;
 }
+
+.dash {
+    display: flex;
+    justify-content: end
+}
+
+.dashboard h3 {
+    font-weight: 800;
+}
+
+.dashboard p {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.but {
+    display: flex;
+    justify-content: end
+}
+
+.buttery h3 {
+    font-weight: 800;
+}
+
+.buttery p {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.li {
+    display: flex;
+    justify-content: end
+}
+
+.link h3 {
+    font-weight: 800;
+}
+
+.link p {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.calendar h3 {
+    font-weight: 800;
+}
+
+.calendar p {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.price h3 {
+    font-weight: 800;
+}
+
+.price p {
+    width: 300px;
+    opacity: 0.5;
+}
+
+.smartwatch h3 {
+    font-weight: 800;
+}
+
+.smartwatch p {
+    width: 300px;
+    opacity: 0.5;
+    font-size: large;
+}
+
+.first-page {
+    margin-top: 400px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
