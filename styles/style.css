@@ -4,22 +4,21 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fff;
-    margin-bottom: 200px;
+    background-color: #ffffff;
+
 }
 
 .header {
     padding-top: 20px;
     display: flex;
     align-items: center;
-    gap: 150px;
+    gap: 135px;
     justify-content: center;
 }
 
 .logo img {
     height: 30px;
 }
-
 
 .collections a {
     color: darkgray;
@@ -48,7 +47,6 @@ body {
     border: 1px;
     padding: 15px 40px;
     border-radius: 30px;
-
 }
 
 .contact a:hover {
@@ -62,8 +60,6 @@ body {
     opacity: 0.6;
     padding: 11px 11px;
     border-radius: 30px;
-    
-
 
 }
 
@@ -71,8 +67,6 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-
-
 }
 
 .logo-image {
@@ -87,6 +81,22 @@ body {
     justify-content: center;
     border-radius: 50%;
     top: 67px;
+}
+
+.logo-image-2 {
+    position: absolute;
+    background-color: white;
+    color: #0088ff;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 2785px;
+    font-weight: bold;
+    box-shadow: 0px 36px 60px 0px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -95,13 +105,12 @@ body {
     justify-content: end;
     align-items: end;
 
-
 }
 
 .box {
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 45px;
     padding: 20px;
     font-weight: bold;
     font-size: 17px;
@@ -189,7 +198,7 @@ body {
 .body {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 130px;
 }
 
 .buttons {
@@ -244,7 +253,8 @@ body {
 }
 
 .image-big img {
-    height: 700px;
+    height: 600px;
+
 }
 
 .dash h3 {
@@ -265,7 +275,7 @@ body {
 
 .buttery p {
     text-align: end;
-    width: 300px;
+    width: 250px;
     opacity: 0.5;
 }
 
@@ -334,7 +344,7 @@ body {
 .the-first-three {
     display: flex;
     gap: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     flex-direction: column;
 
 }
@@ -342,7 +352,7 @@ body {
 .the-second-theree {
     display: flex;
     gap: 40px;
-    margin-top: 50px;
+    margin-top: 40px;
     flex-direction: column;
 }
 
@@ -351,3 +361,162 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.watch-hand {
+    background: linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/photo_2025-06-21_10-10-28.jpg");
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 80px;
+}
+
+.h1-and-h5 h1 {
+    font-size: 40px;
+}
+
+.h1-and-h5 h5 {
+    font-size: 17px;
+    width: 1250px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 120px;
+    font-weight: bold;
+
+}
+
+.watch-hand h5 {
+
+    justify-content: center;
+}
+
+.emojis {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.emojis p {
+    font-size: large;
+}
+
+.drop-and-p {
+    display: block;
+}
+
+.drop {
+    background-color: white;
+    border-radius: 50%;
+    padding: 18px 28px;
+}
+
+.drop img:hover {
+    background-color: white;
+}
+
+.drop:hover {
+    background-color: black;
+}
+
+.drop:hover img {
+    filter: invert(1);
+}
+
+.battery img:hover {
+    background-color: white;
+}
+
+.battery:hover {
+    background-color: black;
+}
+
+.battery:hover img {
+    filter: invert(1);
+}
+
+.battery {
+    background-color: white;
+    border-radius: 50%;
+    padding: 22px 35px;
+}
+
+.battery-and-p {
+    display: block;
+}
+
+.alarm {
+    background-color: white;
+    border-radius: 50%;
+    padding: 23px 28px;
+}
+
+.alarm-and-p {
+    display: block;
+}
+
+.alarm img:hover {
+    background-color: white;
+}
+
+.alarm:hover {
+    background-color: black;
+}
+
+.alarm:hover img {
+    filter: invert(1);
+}
+
+.cloudy {
+    background-color: white;
+    border-radius: 50%;
+    padding: 21px 21px;
+}
+
+.cloudy-and-p {
+    display: block;
+}
+
+.cloudy img:hover {
+    background-color: white;
+}
+
+.cloudy:hover {
+    background-color: black;
+}
+
+.cloudy:hover img {
+    filter: invert(1);
+}
+
+.second-page {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.background-image {
+    margin-top: 150px;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
