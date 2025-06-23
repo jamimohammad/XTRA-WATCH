@@ -555,10 +555,11 @@ body {
     justify-content: center;
     gap: 25px;
 }
-.image-2 h4{
+
+.image-2 h4 {
     margin-top: -20px;
 }
- 
+
 
 .image-1 img {
     height: 230px;
@@ -654,9 +655,47 @@ body {
 
 
 
+.paragraphs-5 h5 {
+    color: #0088ff;
+}
 
+.paragraphs-5 p {
+    font-size: 30px;
+    font-weight: bold;
+}
 
+.paragraphs-5 h4 {
+    font-weight: 600;
+    font-size: large;
+    width: 550px;
+    opacity: 0.4;
+    line-height: 2;
+}
 
+.image-5-page img {
+    border-radius: 50%;
+    height: 90px;
+}
 
+.image-5-page {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
+.five-page {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
 
+.image-big-5-1 img {
+    border-radius: 10px;
+}
+
+.image-big-5-2 {
+    position: relative;
+    top: -200px;
+    left: -200px;
+}
