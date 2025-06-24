@@ -699,3 +699,72 @@ body {
     top: -200px;
     left: -200px;
 }
+.sex-page{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+ 
+
+ .background-image {
+    margin-top: 150px;
+    width: 1000px;
+    height: 545px;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+}
+
+.image-page-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url("../images/photo_2025-06-21_10-10-39.jpg");
+    background-size: cover;
+    width: 1200px;
+    height: 450px;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 80px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.h1-6 h1{
+    font-size:45px;
+}
+.h1-6 p{
+    font-size: 15px;
+    width: 600px;
+    opacity: 0.5;
+}
+.button-1-2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.button-sex-page-1 a{
+color: black;
+border: 1px solid white;
+background-color: #f2f2f2;
+text-decoration: none;
+padding: 15px 20px;
+border-radius: 30px;
+}
+.button-sex-page-2 a{
+padding: 15px 20px;
+   color: #f2f2f2;
+border: 1px solid white;
+text-decoration: none; 
+border-radius: 30px;
+}
+.button-sex-page-1 a:hover{
+    background-color: #0088ff;
+    border: #0088ff;
+}
+.button-sex-page-2 a:hover{
+background-color: #ffffff;
+color: black;
+border: white;
+}
