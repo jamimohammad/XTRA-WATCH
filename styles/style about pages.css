@@ -1,0 +1,408 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+
+}
+
+.header {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 135px;
+    justify-content: center;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.collections a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.watches a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.quick a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.pages a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.contact a:hover {
+    background-color: cornflowerblue;
+}
+
+.logo-contact img {
+    height: 55px;
+    border: 1px;
+    border: 1px solid black;
+    opacity: 0.6;
+    padding: 11px 11px;
+    border-radius: 30px;
+
+}
+
+.button-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.contact-shop {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.box {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.box a {
+    position: relative;
+    padding: 10px 5px;
+    color: gray;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box a.active,
+.box a:hover {
+    color: black;
+
+}
+
+.box a::before,
+.box a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: black;
+    transform: scaleX(0);
+    opacity: 0.1;
+}
+
+.box a::before {
+    top: 0;
+}
+
+.box a::after {
+    bottom: 0;
+}
+
+.box a:hover {
+    color: black;
+
+}
+
+.box a.active::before,
+.box a.active::after,
+.box a:hover::before,
+.box a:hover::after {
+    transform: scaleX(1);
+}
+
+.menu {
+    position: relative;
+}
+
+.menu-button a {
+    padding: 10px 15px;
+
+
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    border-radius: 10px;
+    min-width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.dropdown-menu li a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dropdown-menu li a:hover {
+    color: white;
+    border-left: 4px solid white;
+}
+
+.menu:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.menuu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menuu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.dropdown {
+    position: relative;
+
+}
+
+.mega-page {
+    position: absolute;
+    top: 100%;
+    width: 1000px;
+    background: #1e1f25;
+    padding: 30px 600px;
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    border-radius: 20px;
+    transform: translatex(-390px);
+
+}
+
+.dropdown:hover .mega-page {
+    display: grid;
+
+}
+
+.card {
+    background: #f1f4f8;
+    padding: 40px 50px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    transform: translatex(-500px);
+
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+
+}
+
+.card a {
+    margin-left: -60px;
+    position: absolute;
+    padding: 5px 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+
+}
+
+
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.contact a:hover {
+    background-color: cornflowerblue;
+}
+
+.logo-contact img {
+    height: 55px;
+    border: 1px;
+    border: 1px solid black;
+    opacity: 0.6;
+    padding: 11px 11px;
+    border-radius: 30px;
+
+}
+
+.button-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.logo-image {
+    position: absolute;
+    background-color: #f04;
+    color: white;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 67px;
+}
+
+.button-products img {
+    width: 20px;
+}
+
+.button-products a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+}
+
+.button-products {
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.01);
+    opacity: 0.7;
+}
+
+.title {
+    margin-bottom: 100px;
+}
+
+.titles .highlight {
+    color:#007bff;
+
+}
+
+.titles h1 {
+    font-size: 45px;
+    margin-top: -30px;
+}
+
+.background-title {
+    margin-top: 100px;
+    position: relative;
+    width: 500px;
+    height: 20px;
+    display: flex;
+    background-color: #f2f2f2;
+    border-radius: 100px;
+    justify-content: center
+}
+
+.pa-1 p{
+    line-height: 2;
+    font-size: 19px;
+    opacity: 0.5;
+    width: 550px;
+}
+.icons img{
+ height: 50px;
+}
+.icons {
+    gap: 30px;
+    display: flex;
+line-height: 2;
+font-weight: 900;
+}
+.i-1 { 
+    gap: 15px;
+    display: flex;
+}
+.img-big img{
+    margin-top: 50px;
+    height: 550px;
+    width: 100%;
+    border-radius: 7px;
+}
+.first-page{
+    font-size: large;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+}
+.bg-img{
+    top: 600px;
+    right: 4px;
+    position:absolute;
+    background-color: #007bff;
+    width: 400px;
+    height: 200px;
+    border-radius:  20px;
+    /* display: flex; */
+    padding-left: 30px;
+}
+.bg-img h2{
+color: white;
+width: 180px;
+font-size: 28px;
+}
+.bg-img p{
+    color: white;
+    width: 350px;
+    font-size: 20px;
+}
