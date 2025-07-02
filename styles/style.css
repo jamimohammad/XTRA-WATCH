@@ -726,11 +726,6 @@ body {
     height: 450px;
     color: white;
     padding: 80px 20px;
-    text-align: center;
-    border-radius: 80px;
-    justify-content: center;
-    text-align: center;
-    display: flex;
 }
 
 .h1-6 h1 {

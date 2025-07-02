@@ -504,7 +504,8 @@ body {
 }
 
 .background-second-page {
-    margin-top: 50px;
+    position: sticky;
+    margin-top: 100px;
     border-style: solid;
     border-color: rgba(12, 12, 12, 0.05);
     background-color: rgba(0, 0, 0, 0.01);
@@ -512,6 +513,8 @@ body {
     height: 380px;
     width: 350px;
     display: block;
+    top: 0;
+
 }
 
 .background-second-page h3 {
