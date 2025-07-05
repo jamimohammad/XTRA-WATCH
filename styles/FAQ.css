@@ -360,3 +360,249 @@ body {
     justify-content: center;
     text-align: center;
 }
+.second-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    gap: 100px;
+    align-items: center;
+}
+.bg-s-p{
+  display: flex;
+    justify-content: center;
+    
+}
+.back-s-p{
+    /* margin-top: 300px; */
+    border: 0.1px solid #f2f2f2;
+    background-color: #fcfcfc;
+    width: 400px;
+    height: 850px;
+    border-radius: 30px;
+}
+.img-q img{
+    background-color: #007bff;
+    margin: 20px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding:2px;
+}
+
+.img-q{
+    display: flex;
+    align-items: center;
+  
+}
+.sea{
+      padding: 17px 90px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.h2-p{
+    opacity: 0.6;
+}
+.h-n{
+   
+    display: flex;
+  margin-left: 30px;
+    font-size: 10px;
+    opacity: 0.5;
+}
+.bu-ask{
+ margin-top: 30px;
+ display: flex;
+ justify-content: end;
+ margin-right: 30px;
+}
+.bu-ask a{
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border: 1px solid #007bff ;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+.bu-ask a:hover{
+    background-color: black;
+}
+.de-bg summary{
+    background-color:#fcfcfc;
+    margin-top: 30px;
+    border: 1px solid #f2f2f2;
+width: 700px;
+text-align: end;
+height: 60px;
+align-items: center;
+display: flex;
+border-radius: 20px;
+padding-left: 30px;
+
+}
+.de-bg  p{
+    border: 1px solid black;
+    width:650px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.lasts-page {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.footer {
+    margin-left: -200px;
+}
+
+.menus {
+    display: flex;
+    gap: 60px;
+}
+
+.menus li {
+    color: black;
+    list-style: none;
+    opacity: 0.5;
+    line-height: 2;
+}
+
+.menus li :hover {
+    color: #0088ff;
+}
+
+.menus a {
+    text-decoration: none;
+    color: black;
+}
+
+.background-image-page-6 {
+
+    margin-top: 150px;
+    border: 1px solid #f2f2f2;
+    background-color: #f1f2f6;
+    height: 400px;
+    border-radius: 50px 50px 0px 0px;
+    /* margin-bottom: -200px; */
+}
+
+.images-i-t-p {
+    display: flex;
+    gap: 17px;
+    opacity: 0.9;
+}
+
+.twitter img {
+    width: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.twitter :hover {
+    background-color: #0088ff;
+    border: #0088ff;
+}
+
+.ins img {
+    width: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.pentris img {
+    width: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.pentris :hover {
+    background-color: red;
+    border: red;
+}
+
+.footer p {
+    opacity: 0.5;
+}
+
+.footer h5 {
+    opacity: 0.5;
+}
+
+.footer {
+    padding-left: 40px;
+}
+
+.subscribe-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.subscribe-btn:hover {
+    background-color: #333;
+}
+
+input[type="email"] {
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.button-1-2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.button-1-2 a {
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.button-1-2 img {
+    border: 1px solid black;
+    padding: 15px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    gap: 30px;
+    flex-direction: row;
+    width: 50px;
+}
+
+.button-1-2 img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.button-1-2 :hover {
+    background-color: #000000;
+    color: white;
+}
+
+.button-1-2 img:hover {
+    background-color: #000000;
+    color: white;
+}
