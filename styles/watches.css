@@ -184,10 +184,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.01);
     opacity: 0.7;
+    margin-left: 20px;
+}
+.first-page h4{
+    margin-left: 20px;
 }
 
 .four-watch {
@@ -457,7 +460,7 @@ body {
     border-radius: 30px;
     font-size: 16px;
     font-weight: bold;
-   
+
 }
 
 .subscribe-btn:hover {
@@ -470,12 +473,6 @@ input[type="email"] {
     border-radius: 20px;
     font-size: 14px;
     width: 200px;
-}
-
-.button-product {
-    display: flex;
-    justify-content: end;
-    gap: 20px;
 }
 
 .button-1-2 {
@@ -505,40 +502,41 @@ input[type="email"] {
 
 
 .menu {
-  position: relative;
+    position: relative;
 }
 
-.menu-button a{
-  padding: 10px 15px;
-  font-weight: bold;
+.menu-button a {
+    padding: 10px 15px;
+    font-weight: bold;
 
 }
+
 .dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: black;
-  border-radius: 10px;
-  min-width: 200px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    border-radius: 10px;
+    min-width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .dropdown-menu li a {
-  display: block;
-  color: white;
-  padding: 10px 15px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
 }
 
 .dropdown-menu li a:hover {
-  background-color: white;
+    background-color: white;
 }
 
 .menu:hover .dropdown-menu {
-  display: block;
+    display: block;
 }
 
 .navbar {
@@ -605,7 +603,7 @@ input[type="email"] {
 
 .card p {
     margin-bottom: 10px;
-  
+
 
 }
 
@@ -622,8 +620,10 @@ input[type="email"] {
 
 .both {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     justify-content: end;
+    margin-right: 50px;
+
 }
 
 .select-b {
