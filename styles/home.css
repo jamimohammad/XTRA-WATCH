@@ -8,6 +8,140 @@ body {
 
 }
 
+#humber {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    font-size: 27px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.header-main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 10;
+    gap: 50px;
+}
+
+.header-icon img {
+    height: 30px;
+    padding-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header-name ul {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    list-style-type: none;
+    margin-left: 60px;
+    margin-top: 40px;
+    color: #a3a3a3;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+}
+
+.header-name-ul li span {
+    position: relative;
+    display: inline-block;
+    padding: 8px 0;
+    transition: 0.5s;
+}
+
+.header-name-ul li span::before,
+.header-name-ul li span ::after {
+    content: "";
+    position: absolute;
+    /* left: 50%; */
+    width: 0;
+    height: 1px;
+    background-color: #000;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.header-name-ul li span ::before {
+    top: 0;
+}
+
+.header-name-ul li span::after {
+    bottom: 0;
+}
+
+.header-name-ul li span :hover::before,
+.header-name-ul li span :hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.Contact {
+
+    padding-top: 40px;
+}
+
+.Contact button {
+    border: #0088ff;
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.Contact button:hover {
+    background-color: #0088ff;
+    color: black;
+}
+
+.shop-icon {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d9d7d7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    cursor: pointer;
+    margin-top: 38px;
+    margin-left: 20px;
+}
+
+.both {
+    align-items: center;
+    display: flex;
+}
+
+.all {
+    align-items: center;
+    display: flex;
+}
+
+.items {
+
+    gap: 50px;
+    /* right: -300px; */
+    transition: right 0.3s ease;
+
+}
+
+#menu-toggle:checked~.header-main .items {
+    right: 0;
+}
+
+/* end header  */
+/* 
 .header {
     padding-top: 20px;
     display: flex;
@@ -162,7 +296,7 @@ body {
 .box a:hover::before,
 .box a:hover::after {
     transform: scaleX(1);
-}
+} */
 
 .title {
     margin-top: 120px;
@@ -227,9 +361,9 @@ body {
     text-decoration: none;
     border: 1px solid black;
     padding-left: 40px;
-    padding-top: 18px;
+    padding-top: 16px;
     padding-right: 40px;
-    padding-bottom: 18px;
+    padding-bottom: 16px;
     border-radius: 30px;
     font-weight: bold;
     display: flex;
@@ -289,11 +423,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: end;
-
-    img {
-        align-self: end;
-    }
 }
+
+.img {
+    align-self: end;
+}
+
 
 .link {
     margin-top: -20px;
@@ -379,7 +514,8 @@ body {
 
 .h1-and-h5 h5 {
     font-size: 17px;
-    width: 1250px;
+    width: 100%;
+    /* width: 1250px; */
     padding-top: 20px;
     padding-left: 100px;
     padding-right: 120px;
@@ -406,6 +542,9 @@ body {
 
 .drop-and-p {
     display: block;
+}
+.five-page{
+    display: flex;
 }
 
 .drop {
@@ -498,7 +637,7 @@ body {
     justify-content: center;
 }
 
-.background-image {
+.background-image-p {
     margin-top: 150px;
     width: 1000px;
     height: 700px;
@@ -549,19 +688,33 @@ body {
     font-size: 18px;
     opacity: 0.5;
 }
+
 .image-2 h4 {
     margin-top: -20px;
 }
 
-.four-watch {
+.four-watch-1-2 {
+    gap: 50px;
+    /* width: 300px; */
     display: flex;
     justify-content: center;
-    gap: 25px;
 }
 
+.four-watch {
+    display: flex;
+    gap: 50px;
+}
 
+.four-watch-1 {
+    display: flex;
+    gap: 50px;
+}
 
-
+/* .fourrr{
+     margin-top: 300px;
+    width: 200px;
+    display: flex;
+ } */
 .image-1 img {
     height: 230px;
     border: 1px solid #f2f2f2;
@@ -655,7 +808,12 @@ body {
 }
 
 
-
+.sex-page {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 .paragraphs-5 h5 {
     color: #0088ff;
 }
@@ -701,14 +859,6 @@ body {
     left: -200px;
 }
 
-.sex-page {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-
 .background-image {
     margin-top: 150px;
     width: 1000px;
@@ -726,16 +876,21 @@ body {
     height: 450px;
     color: white;
     padding: 80px 20px;
+    border-radius: 80px;
 }
 
 .h1-6 h1 {
     font-size: 45px;
+    justify-content: center;
+    display: flex;
 }
 
 .h1-6 p {
     font-size: 15px;
     width: 600px;
     opacity: 0.5;
+    justify-content: center;
+    display: flex;
 }
 
 .button-1-2 {
@@ -809,7 +964,7 @@ body {
     border: 1px solid #f2f2f2;
     background-color: #f1f2f6;
     height: 400px;
-     border-radius: 50px 50px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     margin-bottom: -200px;
 }
 
@@ -853,7 +1008,8 @@ body {
 .footer p {
     opacity: 0.5;
 }
-.footer{
+
+.footer {
     padding-left: 40px;
 }
 
@@ -885,8 +1041,28 @@ input[type="email"] {
     width: 200px;
 }
 
-.hover{
+.hover {
     border: 1px solid black;
     width: 100px;
     height: 100px;
+}
+
+#humberger {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+#checkbtn {
+    display: none;
+}
+
+.label fa-solid fa-bars i {
+    display: none;
+}
+
+#bur {
+    display: none;
 }
