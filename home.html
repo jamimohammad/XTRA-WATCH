@@ -4,40 +4,42 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="./images/logo-watch-shop.png">
+    <!-- start header -->
+    <input type="checkbox" id="menu-toggle" hidden />
+    <label for="menu-toggle" id="humber">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <div class="header-main">
+        <div class="header-icon" id="header-icon">
+            <img src="header icon.png" alt="" />
         </div>
-        <div class="box">
-            <div class="home">
-                <a href="home.html" class="active">home</a>
-            </div>
-            <div class="collections">
-                <a href="#">Collections</a>
-            </div>
-            <div class="watches">
-                <a href="watches.html">watches</a>
-            </div>
-            <div class="quick">
-                <a href="#">quick</a>
-            </div>
-            <div class="pages">
-                <a href="#">pages</a>
-            </div>
-        </div>
-        <div class="button-contact">
-            <div class="contact">
-                <a href="#">Contact Us</a>
-            </div>
-            <div class="logo-contact">
-                <div class="contact-shop">
-                    <img src="./images/Capture.PNG">
-                    <span class="logo-image">0</span>
+        <div class="all">
+            <div class="items" style="display: flex;">
+                <div class="header-name">
+                    <ul class="header-name-ul">
+                        <li><span>home</span></li>
+                        <li><span>Collection</span></li>
+                        <li><span>Watches</span></li>
+                        <li><span>Quick</span></li>
+                        <li><span>Watches</span></li>
+                    </ul>
                 </div>
+                <div class="both">
+                    <div class="Contact">
+                        <button>Contact Us</button>
+                    </div>
+                    <div class="shop-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -72,18 +74,18 @@
     </div>
 
     <div class="first-page">
-        <div class="the-first-three">
-            <div class="dash">
+        <div class="the-second-theree">
+            <div class="calendar">
                 <img src="./images/dashboard.png">
                 <h3>Shows time & date</h3>
                 <p>A smartwatch is a wearable computer in the form of a watch.</p>
             </div>
-            <div class="buttery">
+            <div class="price">
                 <img src="./images/batteryv.png">
                 <h3>Affordable price</h3>
                 <p>A smartwatch is a wearable computer in the form of a watch</p>
             </div>
-            <div class="link">
+            <div class="smartwatch">
                 <img src="./images/link.png">
                 <h3>Best Quality and design</h3>
                 <p>A smartwatch is a wearable computer in the form of a watch.
@@ -105,20 +107,16 @@
                 <h3>Affordable price</h3>
                 <p>A smartwatch is a wearable computer in the form of a watch</p>
             </div>
-            <div class="smartwatch-app">
+            <div class="smartwatch">
                 <img src="./images/smartwatch-app.png">
-                <div class="smartwatch">
-                    <h3>Best Quality and design</h3>
-                    <p>A smartwatch is a wearable computer in the form of a watch.
-                        Smart Watch WordPress Theme 7</p>
-                </div>
+                <h3>Best Quality and design</h3>
+                <p>A smartwatch is a wearable computer in the form of a watch.
+                    Smart Watch WordPress Theme 7</p>
             </div>
         </div>
     </div>
-    </div>
-
     <div class="background">
-        <div class="background-image">
+        <div class="background-image-p">
             <div class="second-page">
                 <div class="watch-hand">
                     <div class="h1-and-h5">
@@ -133,10 +131,7 @@
                     </div>
                     <br /><br /><br /><br /><br />
                     <div class="emojis">
-
-
                         <div class="drop-and-p">
-
                             <div class="drop">
                                 <img src="./images/drop.png">
                             </div>
@@ -186,11 +181,13 @@
             <p>A smartwatch is a wearable computer in the form of a watch; modern smartwatches</p>
             <p>provide a local touchscreen interface for daily use.</p>
         </div>
+    </div>
+
+    <div class="four-watch-1-2">
         <div class="four-watch">
             <div class="packground-image-1">
                 <div class="image-1">
                     <img src="./images/watch-1-768x768.png">
-
                     <a href="#">
                         <h4>Chrome watch </h4>
                     </a>
@@ -201,44 +198,15 @@
                         <p>$399</p>
                     </div>
                     <div class="button-add">
-                        <div class="img-movie">
-                        </div>
                         <div class="add-cart">
                             <a href="#">add cart</a>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="packground-image-1">
                 <div class="image-1">
-                    <img src="./images/gold-watch-768x768.png">
-                    <span class="logo-image-2">20%</span>
-                    <a href="#">
-                        <a href="#">
-                            <h4>Chrome watch </h4>
-                        </a>
-                        <div class="h3-star">
-                            <h3>⭐⭐⭐⭐⭐</h3>
-                        </div>
-                        <div class="p-399">
-                            <p> <del>$499</del> $399</p>
-
-                        </div>
-                        <div class="button-add">
-                            <div class="img-movie">
-                            </div>
-                            <div class="add-cart">
-                                <a href="#">add cart</a>
-                            </div>
-
-
-                        </div>
-                </div>
-            </div>
-            <div class="packground-image-1">
-                <div class="image-1">
-                    <img src="./images/gold-watch-768x768.png">
+                    <img src="./images/watch-1-768x768.png">
                     <a href="#">
                         <h4>Chrome watch </h4>
                     </a>
@@ -246,12 +214,31 @@
                         <h3>⭐⭐⭐⭐⭐</h3>
                     </div>
                     <div class="p-399">
-
-                        <p>$699</p>
+                        <p>$399</p>
                     </div>
                     <div class="button-add">
-                        <div class="img-movie">
+                        <div class="add-cart">
+                            <a href="#">add cart</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="four-watch-1">
+            <div class="packground-image-1">
+                <div class="image-1">
+                    <img src="./images/watch-1-768x768.png">
+                    <a href="#">
+                        <h4>Chrome watch </h4>
+                    </a>
+                    <div class="h3-star">
+                        <h3>⭐⭐⭐⭐⭐</h3>
+                    </div>
+                    <div class="p-399">
+                        <p>$399</p>
+                    </div>
+                    <div class="button-add">
                         <div class="add-cart">
                             <a href="#">add cart</a>
                         </div>
@@ -260,7 +247,7 @@
             </div>
             <div class="packground-image-1">
                 <div class="image-1">
-                    <img src="./images/black-watch-768x768.png">
+                    <img src="./images/watch-1-768x768.png">
                     <a href="#">
                         <h4>Chrome watch </h4>
                     </a>
@@ -268,132 +255,125 @@
                         <h3>⭐⭐⭐⭐⭐</h3>
                     </div>
                     <div class="p-399">
-                        <p>$599</p>
+                        <p>$399</p>
                     </div>
                     <div class="button-add">
-                        <div class="img-movie">
-                        </div>
                         <div class="add-cart">
                             <a href="#">add cart</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="five-page">
-            <div class="p-and-img">
-                <div class="paragraphs-5">
-                    <h5>Testimonials</h5>
-                    <p>This watch is amazing<br />affordable Price</p>
-                    <h4>"I don't always clop, but when I do, it's because of pear watch. Pear watch has really helped
-                        me. I
-                        strongly recommend pear watch to everyone interested in fashion &amp; tech! This is simply
-                        unbelievable!"</h4>
-                </div>
-                <div class="image-5-page">
-                    <img src="./images/testimonial-3.jpg">
-                    <div class="h2-and-p">
-                        <h2>Jhon Carter</h2>
-                        <p>UX Designer</p>
-                    </div>
-                </div>
+    <div class="five-page">
+        <div class="p-and-img">
+            <div class="paragraphs-5">
+                <h5>Testimonials</h5>
+                <p>This watch is amazing<br />affordable Price</p>
+                <h4>"I don't always clop, but when I do, it's because of pear watch. Pear watch has really helped
+                    me. I
+                    strongly recommend pear watch to everyone interested in fashion &amp; tech! This is simply
+                    unbelievable!"</h4>
             </div>
-            <div class="iamge-1-2">
-                <div class="image-big-5-1">
-                    <img src="./images/man-airpods.jpg">
-                </div>
-                <div class="image-big-5-2">
-                    <img src="./images/watch-front-home.png">
+            <div class="image-5-page">
+                <img src="./images/testimonial-3 (1).jpg">
+                <div class="h2-and-p">
+                    <h2>Jhon Carter</h2>
+                    <p>UX Designer</p>
                 </div>
             </div>
         </div>
-
-
-        <div class="background">
-            <div class="background-image">
-                <div class="second-page">
-                    <div class="image-page-6">
-                        <div class="h1-6">
-                            <h1>Nearby Pear-Watch Stores</h1>
-                            <br />
-                            <p>A smartwatch is a wearable computer in the form of a watch; modern smartwatch
-                                <br />provide a local touchscreen interface for daily use.
-                            </p>
-                            <br /><br /><br /><br />
-                            <div class="button-1-2">
-                                <div class="button-sex-page-1">
-                                    <a href="#">Purchase Now</a>
-                                </div>
-                                <div class="button-sex-page-2">
-                                    <a href="#">Find Nearby Stores</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="iamge-1-2">
+            <div class="image-big-5-1">
+                <img src="./images/man-airpods.jpg">
+            </div>
+            <div class="image-big-5-2">
+                <img src="./images/watch-front-home.png">
             </div>
         </div>
-
-        <div class="last-page">
-            <div class="background-image-page-6">
-                <div class="lasts-page">
-                    <br /><br /><br />
-                    <div class="footer">
-                        <img src="./images/logo-watch-shop (1).png">
-                        <p>A smartwatch is a wearable computer in the form of a watch; modern <br />
-                            smartwatches provide a local touchscreen interface for daily use.</p>
-                        <br />
-                        <div class="images-i-t-p">
-                            <div class="twitter">
-                                <img src="./images/twitter.svg">
-                            </div>
-                            <div class="ins">
-                                <img src="./images/instagram.svg">
-                            </div>
-                            <div class="pentris">
-                                <img src="./images/pinterest.svg">
-                            </div>
-                        </div>
-                        <br /> <br />
-                        <h5>XTRA Shop © 2025 All Rights Reserved</h5>
-                    </div>
-                    <div class="menus">
-                        <div class="menu">
-                            <h2>menu</h2>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Books</a></li>
-                            <li><a href="#">Collection</a></li>
-                            <li><a href="#">Categories</a></li>
-                        </div>
-                        <div class="menu">
-                            <h2>Support</h2>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Terms & condition</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Report</a></li>
-                        </div>
-                        <div class="menu">
-                            <h2>Stay in Touch</h2>
-                            <div class="subscribe-box">
-                                <input type="email" placeholder="Enter your email" />       
-                                <br /><br />
-                                <button class="subscribe-btn">subscribe</button>
-                            </div>
-                            <br /><br />
-                            <h5>Track Your order</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
 
 
-    
+    <div class="background">
+        <div class="background-image">
+            <div class="second-page">
+                <div class="image-page-6">
+                    <div class="h1-6">
+                        <h1>Nearby Pear-Watch Stores</h1>
+                        <br />
+                        <p>A smartwatch is a wearable computer in the form of a watch; modern smartwatch
+                            <br />provide a local touchscreen interface for daily use.
+                        </p>
+                        <br /><br /><br /><br />
+                        <div class="button-1-2">
+                            <div class="button-sex-page-1">
+                                <a href="#">Purchase Now</a>
+                            </div>
+                            <div class="button-sex-page-2">
+                                <a href="#">Find Nearby Stores</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
+    <div class="last-page">
+        <div class="background-image-page-6">
+            <div class="lasts-page">
+                <br /><br /><br />
+                <div class="footer">
+                    <img src="./images/logo-watch-shop (1).png">
+                    <p>A smartwatch is a wearable computer in the form of a watch; modern <br />
+                        smartwatches provide a local touchscreen interface for daily use.</p>
+                    <br />
+                    <div class="images-i-t-p">
+                        <div class="twitter">
+                            <img src="./images/twitter.svg">
+                        </div>
+                        <div class="ins">
+                            <img src="./images/instagram.svg">
+                        </div>
+                        <div class="pentris">
+                            <img src="./images/pinterest.svg">
+                        </div>
+                    </div>
+                    <br /> <br />
+                    <h5>XTRA Shop © 2025 All Rights Reserved</h5>
+                </div>
+                <div class="menus">
+                    <div class="menu">
+                        <h2>menu</h2>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="#">Categories</a></li>
+                    </div>
+                    <div class="menu">
+                        <h2>Support</h2>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Terms & condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Report</a></li>
+                    </div>
+                    <div class="menu">
+                        <h2>Stay in Touch</h2>
+                        <div class="subscribe-box">
+                            <input type="email" placeholder="Enter your email" />
+                            <br /><br />
+                            <button class="subscribe-btn">subscribe</button>
+                        </div>
+                        <br /><br />
+                        <h5>Track Your order</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
