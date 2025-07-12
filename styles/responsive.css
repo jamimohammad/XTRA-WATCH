@@ -297,19 +297,19 @@
         height: auto;
     }
 
- 
+
     .background-image {
         padding-left: 100px;
         padding-right: 100px;
         width: 100%;
         height: 500px;
-       
+
     }
 
     .image-page-6 {
         width: 100%;
         height: 400px;
-     
+
     }
 
     .h1-6 h1 {
@@ -420,8 +420,8 @@
         font-size: 15px;
     }
 }
-@media (max-width:992px){
-     #humber {
+@media (max-width:992px) {
+    #humber {
         display: block;
         position: absolute;
         top: 30px;
@@ -534,4 +534,30 @@
         z-index: 1;
     }
 
+    .body {
+        flex-direction: row;
+        align-items: center;
+        font-size: 15px;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .title {
+        width: 60%;
+    }
+
+    .buttons {
+        width: 100%;
+        font-size: 12px;
+        flex-direction: row;
+    }
+
+    .buttons a {
+        font-weight: 900;
+    }
+
+    .watch img {
+        height: 500px;
+        width: 100%;
+    }
 }
