@@ -21,6 +21,7 @@ body {
     margin-right: 10px;
 }
 
+
 .header-main {
     width: 1200px;
     margin: 0 auto;
@@ -478,7 +479,7 @@ body {
     font-size: large;
 }
 
-.the-first-three {
+.the-first-theree {
     display: flex;
     gap: 50px;
     margin-top: 30px;
@@ -530,9 +531,24 @@ body {
     justify-content: center;
 }
 
-.emojis {
+.bd-ac {
     display: flex;
-    gap: 70px;
+    gap: 60px;
+}
+
+.d-b {
+    display: flex;
+    gap: 50px;
+}
+
+.a-c {
+    display: flex;
+    gap: 50px;
+}
+
+.emojis {
+    margin-top: -50px;
+
     align-items: center;
     justify-content: center;
 }
@@ -545,7 +561,8 @@ body {
 .drop-and-p {
     display: block;
 }
-.five-page{
+
+.five-page {
     display: flex;
 }
 
@@ -640,6 +657,7 @@ body {
 }
 
 .background-image-p {
+    position: relative;
     margin-top: 150px;
     width: 1000px;
     height: 700px;
@@ -712,11 +730,6 @@ body {
     gap: 50px;
 }
 
-/* .fourrr{
-     margin-top: 300px;
-    width: 200px;
-    display: flex;
- } */
 .image-1 img {
     height: 230px;
     border: 1px solid #f2f2f2;
@@ -816,6 +829,7 @@ body {
     align-items: center;
     text-align: center;
 }
+
 .paragraphs-5 h5 {
     color: #0088ff;
 }
@@ -899,6 +913,11 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+.emojis {
+    display: flex;
+
 }
 
 .button-sex-page-1 a {

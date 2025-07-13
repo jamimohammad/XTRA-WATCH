@@ -117,6 +117,9 @@
         position: relative;
         z-index: 1;
     }
+}
+
+@media (max-width: 768px) {
 
     .body {
         flex-direction: column;
@@ -178,6 +181,13 @@
         width: 100%;
     }
 
+    .the-first-theree {
+        text-align: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
     .the-second-theree {
         text-align: center;
         flex-direction: column;
@@ -190,14 +200,21 @@
     }
 
     .background-image-p {
-        width: 80%;
+        width: 90%;
     }
 
-    .watch-hand {
+    .second-page {
 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .watch-hand {
         width: 90%;
-        padding: 0px -240px;
-        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
 
     }
 
@@ -214,18 +231,16 @@
         font-size: 13px;
     }
 
+    .emojis {
+        margin-top: -60px;
+    }
+
     .titles h1 {
         font-size: 45px;
     }
 
     .background-title {
         width: 500px;
-    }
-
-    .emojis {
-        width: 100%;
-        font-size: -30px;
-        gap: 40px;
     }
 
     .four-watch-1-2 {
@@ -241,9 +256,9 @@
     .four-watch-1 {
         justify-content: center;
     }
-}
 
-@media (max-width: 768px) {
+
+
     .five-page {
         flex-direction: column;
         align-items: center;
@@ -420,7 +435,13 @@
         font-size: 15px;
     }
 }
-@media (max-width:992px) {
+
+/* @media (max-width:992px) {
+body{
+    overflow-x: hidden;
+} */
+
+@media (min-width: 768px) and (max-width: 1024px) {
     #humber {
         display: block;
         position: absolute;
@@ -543,21 +564,88 @@
     }
 
     .title {
-        width: 60%;
+        padding-left: 30px;
+    }
+
+    .title-1 h3 {
+        font-size: 3vw;
+        margin-top: 10px;
+    }
+
+    .title-2 h2 {
+        font-size: 4vw;
+    }
+
+    .title-3 h1 {
+        font-size: 5vw;
     }
 
     .buttons {
-        width: 100%;
-        font-size: 12px;
+        font-size: 1vw;
         flex-direction: row;
-    }
-
-    .buttons a {
-        font-weight: 900;
+        width: 500px;
     }
 
     .watch img {
-        height: 500px;
+        height: auto;
         width: 100%;
     }
+
+    .first-page {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .the-first-theree {
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .the-first-theree h3,
+    .the-first-theree p {
+        text-align: right;
+        width: 100%;
+    }
+
+    .image-big {
+        text-align: center;
+        width: 100%;
+    }
+
+    .the-second-theree {
+        padding-left: 30px;
+    }
+
+    .the-second-theree h3,
+    .the-second-theree p {
+        width: 100%;
+    }
+
+    .price {
+        padding: 0px;
+    }
+
+    .background {
+        padding: 0px 50px;
+    }
+
+    .watch-hand {
+        width: 100%;
+        height: 700px;
+    }
+
+    .background-image-p {
+        height: 800px;
+    }
+
+    .bd-ac {
+        margin-top: -65px;
+        flex-direction: column;
+    }
+
 }
