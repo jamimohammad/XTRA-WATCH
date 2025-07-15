@@ -1039,4 +1039,24 @@
             padding: 0;
         }
         
+        .background {
+            padding: 0px 100px;
+        }
+
+        .watch-hand {
+            width: 900px;
+            height: 600px;
+        }
+
+        .h1-and-h5 h1 {
+            
+            font-size: 20px;
+        }
+        .background-image-p {
+            width: 800px;
+            height: 700px;
+            padding: 0 50px;
+        }
+
+    
     }
