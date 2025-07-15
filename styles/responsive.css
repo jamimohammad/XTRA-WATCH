@@ -9,14 +9,12 @@
 @media (max-width: 768px) {
     #humber {
         display: block;
-        position: absolute;
         top: 30px;
         right: 30px;
         font-size: 27px;
         z-index: 1001;
         cursor: pointer;
         direction: ltr;
-        position: fixed;
     }
 
     #humber i {
@@ -26,10 +24,11 @@
 
     #menu-toggle:checked+#humber i {
         color: white;
+        position: fixed;
+
     }
 
     .items {
-        position: fixed;
         top: 0;
         right: -300px;
         width: 250px;
@@ -139,7 +138,6 @@
         text-align: center;
         font-size: 15px;
         order: 2;
-        padding: 0 30px;
     }
 
     .title-2 h2 {
@@ -160,307 +158,726 @@
         justify-content: center;
         flex-direction: column;
         gap: 40px;
-        padding: 10px 10px
+        padding: 0px 30px
     }
 
     .watch {
         order: 1;
-        text-align: center;
-        padding: 0 50px;
+        min-width: 300px;
+        max-width: 600px;  
     }
 
-    .watch img {
-        height: auto;
-        width: 100%;
-        max-width: 100%;
+        .body {
+            width: 100%;
+            padding: 0 50px;
+            min-width: 100px;
+        }
+
+        .first-page {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-big img {
+            padding: 0 30px;
+            width: 95%;
+            height: auto;
+        }
+
+        .the-first-three {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 50px 20px;
+            text-align: center;
+            max-width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .the-first-three>div {
+            padding: 20px;
+            width: 100%;
+        }
+
+        .the-first-theree {
+            text-align: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+        }
+
+        .the-second-theree {
+            text-align: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+        }
+
+        .price {
+            padding: 0;
+        }
+
+        .background {
+            padding: 0px 30px;
+        }
+
+        .watch-hand {
+            width: 600px;
+            height: 900px;
+        }
+
+        .h1-and-h5 h1 {
+            width: 550px;
+            font-size: 20px;
+        }
+
+        .h1-and-h5 h5 {
+            width: 600px;
+        }
+
+        .background-image-p {
+            width: 350px;
+            height: 1000px;
+            padding: 0 50px;
+        }
+
+        .bd-ac {
+            margin-top: -50px;
+            flex-direction: column;
+        }
+
+        .background-title {
+            margin-top: -40px;
+            width: 350px;
+        }
+
+        .titles h1 {
+            margin-top: -20px;
+            width: 355px;
+            font-size: 35px;
+
+        }
+
+        .pa-1 p {
+            width: 100%;
+            padding: 0 40px;
+        }
+
+        .Watches {
+            padding: 0 15px;
+        }
+
+        .Watches-p4 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 4px;
+        }
+
+        .watch-p4 {
+            width: 100%;
+            box-sizing: border-box;
+            transform: scale(0.9);
+        }
+
+        .p-4 p {
+            display: none;
+        }
+
+        .p-4 h3 {
+            font-size: 27px;
+        }
+
+        .photo-watch {
+            height: 160px;
+            width: 160px;
+            margin: 20px auto 0 auto;
+        }
+
+        .photo-watch img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .five-page {
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            margin-top: 300px;
+            justify-content: center;
+        }
+
+        .p-and-img {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+        }
+
+        .paragraphs-5 h4 {
+            width: 100%;
+            font-size: 16px;
+            justify-content: center;
+        }
+
+        .paragraphs-5 p {
+            font-size: 22px;
+        }
+
+        .image-5-page {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-5-page img {
+            height: 70px;
+        }
+
+        .iamge-1-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image-big-5-2 {
+            position: static;
+        }
+
+        .image-big-5-1 img,
+        .image-big-5-2 img {
+            width: 90%;
+            max-width: 300px;
+            height: auto;
+        }
+
+        .image-page-6 {
+            width: 100%;
+
+        }
+
+        .background-image {
+            padding: 0 100px;
+            width: 70%;
+        }
+
+        .be-la {
+            width: 100%;
+            padding: 0 50px;
+        }
+
+        .h1-6 h1 {
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .h1-6 p {
+            font-size: 15px;
+            justify-content: center;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            width: 370px;
+        }
+
+        .button-1-2 {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 40px;
+        }
+
+        .lasts-page {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            width: 100%;
+            margin-top: -80px;
+            padding: 0 30px;
+        }
+
+        .background-image-page-6 {
+            width: 100%;
+            height: 1100px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            margin: 0;
+        }
+
+        .footer img {
+            width: 130px;
+        }
+
+        .ins img {
+            width: 50px;
+        }
+
+        .images-i-t-p {
+            display: flex;
+            justify-content: center;
+        }
+
+        .twitter img {
+            width: 50px;
+        }
+
+        .pentris img {
+            width: 50px;
+        }
+
+        .menus {
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .menu h2 {
+            font-size: 15px;
+        }
+
+        .menu {
+            margin-top: 20px;
+            font-size: 15px;
+            gap: 0;
+            padding-left: 10px;
+        }
+
+        .subscribe-btn {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="email"] {
+            padding: 10px 6px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            font-size: 14px;
+            width: 200px;
+        }
+
+        .twitter img {
+            font-size: 15px;
+        }
     }
 
-    .body {
-        width: 100%;
-        padding: 0 50px;
+    @media (min-width: 768px) and (max-width: 922px) {
+        #humber {
+            display: block;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-size: 27px;
+            z-index: 1001;
+            cursor: pointer;
+            direction: ltr;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        #humber i {
+            color: black;
+            transition: color 0.3s ease;
+        }
+
+        #menu-toggle:checked+#humber i {
+            color: white;
+        }
+
+        .items {
+            position: fixed;
+            top: 0;
+            right: -300px;
+            width: 250px;
+            height: 100vh;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: black;
+            padding: 40px 20px;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+            transition: right 0.3s ease;
+            z-index: 1000;
+        }
+
+        .header-icon {
+            display: block;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .header-name,
+        .Contact,
+        .shop-icon {
+            display: none;
+        }
+
+        #menu-toggle:checked~.header-main {
+            right: 0;
+        }
+
+        #menu-toggle:checked~.header-main .header-name,
+        #menu-toggle:checked~.header-main,
+        #menu-toggle:checked~.header-main {
+            display: block;
+            margin-top: 20px;
+        }
+
+        .header-name ul {
+            flex-direction: column;
+            gap: 15px;
+            margin-left: 0;
+            background-color: black;
+            color: white;
+            justify-content: start;
+        }
+
+        .header-name-ul li span::before,
+        .header-name-ul li span::after {
+            display: none;
+        }
+
+        .header-name-ul li {
+            border: 1px solid black;
+            border-radius: 40px;
+            background-color: black;
+            color: white;
+            overflow: hidden;
+            transition: color 0.3s ease;
+            text-align: left;
+        }
+
+        .header-name-ul li::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            z-index: 0;
+            transition: width 0.4s ease;
+            border-radius: 40px;
+        }
+
+        .header-name-ul li {
+            border: 1px solid black;
+            padding: 5px 15px;
+            background-color: black;
+            color: white;
+        }
+
+        .header-name-ul li:hover {
+            border: 1px solid white;
+            padding: 5px 15px;
+            background-color: white;
+            color: black;
+        }
+
+        .header-name-ul li span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .body {
+            flex-direction: row;
+            align-items: center;
+            font-size: 15px;
+            gap: 0px;
+            width: 100%;
+        }
+
+        .title {
+            font-size: 15px;
+            padding-left: 30px;
+        }
+
+        .title-2 h2 {
+            font-size: 50px;
+        }
+
+        .title-3 h1 {
+            margin-top: 45px;
+            font-size: 50px;
+        }
+
+        .buttons {
+            flex-direction: row;
+            width: 500px;
+        }
+
+        .watch img {
+            height: auto;
+            width: 100%;
+            min-width: 350px;
+            padding-right: 40px;
+        }
+
+        .first-page {
+            flex-direction: column;
+            width: 100%;
+        }
+
+
+        .the-first-theree {
+            padding-right: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: right;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .the-first-theree h3,
+        .the-first-theree p {
+            text-align: right;
+            width: 100%;
+        }
+
+        .image-big {
+            text-align: center;
+            width: 100%;
+        }
+
+        .the-second-theree {
+            padding-left: 30px;
+        }
+
+        .the-second-theree h3,
+        .the-second-theree p {
+            width: 100%;
+        }
+
+        .price {
+            padding: 0px;
+        }
+
+        .background {
+            padding: 0px 50px;
+        }
+
+        .watch-hand {
+            width: 100%;
+            height: 700px;
+        }
+
+        .background-image-p {
+            height: 800px;
+        }
+
+        .bd-ac {
+            margin-top: -65px;
+            flex-direction: column;
+        }
+
+        .titles h1 {
+            font-size: 45px;
+        }
+
+        .background-title {
+            width: 500px;
+
+        }
+
+        .pa-1 {
+            width: 900px;
+        }
+
+        .four-watch-1-2 {
+            display: block;
+            justify-content: center;
+
+        }
+
+        .four-watch {
+            justify-content: center;
+            padding: 0 20px;
+            font-size: 1vw;
+        }
+
+        .four-watch-1 {
+            justify-content: center;
+        }
+
+        .five-page {
+
+            flex-direction: column;
+            gap: 50px;
+            margin-top: 100px;
+
+        }
+
+        .p-and-img {
+            padding-left: 30px;
+            gap: 20px;
+        }
+
+        .paragraphs-5 h4 {
+            width: 800px;
+            font-size: 16px;
+        }
+
+        .paragraphs-5 p {
+            font-size: 22px;
+        }
+
+        .image-5-page img {
+            height: 70px;
+        }
+
+        .iamge-1-2 {
+            display: flex;
+            align-items: end;
+            padding-right: 30px;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .image-big-5-2 {
+            position: static;
+        }
+
+        .image-big-5-1 img {
+            width: 100%;
+            height: 400px;
+        }
+
+        .image-big-5-2 img {
+            width: 70%;
+        }
+
+        .b-l {
+            flex-direction: column;
+
+        }
+
+        .h1-6 p {
+            width: 750px;
+        }
+
+        .image-page-6 {
+            width: 100%;
+            flex-direction: column;
+
+        }
+
+        .background-image {
+            flex-direction: column;
+            width: 70%;
+
+        }
+
+        .b-i-h1 {
+            flex-direction: column;
+            padding: 0 40px;
+        }
+
+        .lasts-page {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            width: 100%;
+            margin-top: -80px;
+        }
+
+        .background-image-page-6 {
+            width: 100%;
+            height: 1100px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            margin: 0;
+        }
+
+        .footer img {
+            width: 130px;
+        }
+
+        .ins img {
+            width: 50px;
+        }
+
+        .images-i-t-p {
+            display: flex;
+            justify-content: center;
+        }
+
+        .twitter img {
+            width: 50px;
+        }
+
+        .pentris img {
+            width: 50px;
+        }
+
+        .menus {
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .menu h2 {
+            font-size: 15px;
+        }
+
+        .menu {
+            margin-top: 20px;
+            font-size: 15px;
+            gap: 0;
+            padding-left: 10px;
+        }
+
+        .subscribe-btn {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="email"] {
+            padding: 10px 6px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            font-size: 14px;
+            width: 520px;
+        }
+
+        .twitter img {
+            font-size: 15px;
+        }
+
     }
 
-    .first-page {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .image-big img {
-        padding: 0 30px;
-        width: 95%;
-        height: auto;
-    }
-
-    .the-first-three {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin: 50px 20px;
-        text-align: center;
-        max-width: 100%;
-        flex-wrap: wrap;
-    }
-
-    .the-first-three>div {
-        padding: 20px;
-        width: 100%;
-    }
-
-    .the-first-theree {
-        text-align: center;
-        flex-direction: column;
-        text-align: center;
-        margin: 0;
-    }
-
-    .the-second-theree {
-        text-align: center;
-        flex-direction: column;
-        text-align: center;
-        margin: 0;
-    }
-
-    .price {
-        padding: 0;
-    }
-
-    .background {
-        padding: 0px 50px;
-    }
-
-    .watch-hand {
-        width: 80%;
-        height: 900px;
-
-    }
-
-    .h1-and-h5 h5 {
-        width: 450px;
-        padding-left: 30px;
-    }
-
-    .background-image-p {
-        width: 100%;
-        height: 1000px;
-        padding: 0 50px;
-    }
-
-    .bd-ac {
-        margin-top: -50px;
-        flex-direction: column;
-    }
-
-    .background-title {
-
-        margin-top: -30px;
-        width: 370px;
-    }
-
-    .pa-1 p {
-        width: 100%;
-        padding: 0 40px;
-    }
-
-    .four-watch-1-2 {
-        display: grid;
-        grid-template-columns: repeat(2, ifr);
-    }
-
-    .four-watch {
-        display: grid;
-        grid-template-columns: repeat(4, ifr);
-    }
-
-    .packground-image-1 {
-        width: 100%;
-    }
-
-    .four-watch-1 {
-        justify-content: center;
-        display: grid;
-        grid-template-columns: repeat(2, ifr);
-    }
-
-    .five-page {
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-        margin-top: 100px;
-        justify-content: center;
-    }
-
-    .p-and-img {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .paragraphs-5 h4 {
-        width: 100%;
-        font-size: 16px;
-        justify-content: center;
-    }
-
-    .paragraphs-5 p {
-        font-size: 22px;
-    }
-
-    .image-5-page {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .image-5-page img {
-        height: 70px;
-    }
-
-    .iamge-1-2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .image-big-5-2 {
-        position: static;
-    }
-
-    .image-big-5-1 img,
-    .image-big-5-2 img {
-        width: 90%;
-        max-width: 300px;
-        height: auto;
-    }
-
-    .image-page-6 {
-        width: 400px;
-
-    }
-
-    .background-image {
-        padding: 0 100px;
-        width: 90%;
-    }
-
-    .be-la {
-        width: 100%;
-        padding: 0 50px;
-    }
-
-    .h1-6 h1 {
-        font-size: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .h1-6 p {
-        font-size: 15px;
-        justify-content: center;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        width: 370px;
-    }
-
-    .button-1-2 {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        gap: 40px;
-    }
-
-    .lasts-page {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        gap: 0;
-        width: 100%;
-        margin-top: -80px;
-        padding: 0 30px;
-    }
-
-    .background-image-page-6 {
-        width: 100%;
-        height: 1100px;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer {
-        margin: 0;
-    }
-
-    .footer img {
-        width: 130px;
-    }
-
-    .ins img {
-        width: 50px;
-    }
-
-    .images-i-t-p {
-        display: flex;
-        justify-content: center;
-    }
-
-    .twitter img {
-        width: 50px;
-    }
-
-    .pentris img {
-        width: 50px;
-    }
-
-    .menus {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .menu h2 {
-        font-size: 15px;
-    }
-
-    .menu {
-        margin-top: 20px;
-        font-size: 15px;
-        gap: 0;
-        padding-left: 10px;
-    }
-
-    .subscribe-btn {
-        background-color: black;
-        color: white;
-        border: none;
-        padding: 10px 25px;
-        border-radius: 30px;
-        font-size: 16px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    input[type="email"] {
-        padding: 10px 6px;
-        border: 2px solid #ccc;
-        border-radius: 20px;
-        font-size: 14px;
-        width: 200px;
-    }
-
-    .twitter img {
-        font-size: 15px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 922px) {
+@media (max-width: 1200px) {
     #humber {
         display: block;
         position: absolute;
@@ -470,10 +887,7 @@
         z-index: 1001;
         cursor: pointer;
         direction: ltr;
-    }
-
-    body {
-        overflow-x: hidden;
+        position: fixed;
     }
 
     #humber i {
@@ -579,399 +993,50 @@
     }
 
     .body {
-        flex-direction: row;
-        align-items: center;
-        font-size: 15px;
-        gap: 0px;
-        width: 100%;
-    }
-
-    .title {
-        padding-left: 30px;
-    }
-
-    .title-1 h3 {
-        font-size: 3vw;
-        margin-top: 10px;
-    }
-
-    .title-2 h2 {
-        font-size: 4vw;
-    }
-
-    .title-3 h1 {
-        font-size: 5vw;
-    }
-
-    .buttons {
-        /* font-size: 1vw; */
-        flex-direction: row;
-        width: 500px;
+        gap: 0;
     }
 
     .watch img {
-        height: auto;
+        margin-top: 50px;
         width: 100%;
+        height: 450px;
+        padding: 0 50px;
     }
-
-    .first-page {
-        flex-direction: column;
-        width: 100%;
-    }
-
-
-    .the-first-theree {
-        padding-right: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        text-align: right;
-        gap: 20px;
-        width: 100%;
-    }
-
-    .the-first-theree h3,
-    .the-first-theree p {
-        text-align: right;
-        width: 100%;
-    }
-
-    .image-big {
-        text-align: center;
-        width: 100%;
-    }
-
-    .the-second-theree {
+    .i-m img{
         padding-left: 30px;
     }
 
-    .the-second-theree h3,
-    .the-second-theree p {
-        width: 100%;
-    }
-
-    .price {
-        padding: 0px;
-    }
-
-    .background {
-        padding: 0px 50px;
-    }
-
-    .watch-hand {
-        width: 100%;
-        height: 700px;
-    }
-
-    .background-image-p {
-        height: 800px;
-    }
-
-    .bd-ac {
-        margin-top: -65px;
-        flex-direction: column;
-    }
-
-    .titles h1 {
-        font-size: 45px;
-    }
-
-    .background-title {
-        width: 500px;
-
-    }
-
-    .pa-1 {
-        width: 900px;
-    }
-
-    .four-watch-1-2 {
-        display: block;
-        justify-content: center;
-
-    }
-
-    .four-watch {
-        justify-content: center;
-        padding: 0 20px;
-        font-size: 1vw;
-    }
-
-    .four-watch-1 {
-        justify-content: center;
-    }
-
-    .five-page {
-        flex-direction: column;
-        gap: 50px;
-        margin-top: 100px;
-
-    }
-
-    .p-and-img {
+    .title{
         padding-left: 30px;
-        gap: 20px;
+    }
+    .a-f{
+        padding: 0 50px;
+    }
+ 
+   
+    .the-first-theree{
+        font-size:10px;
+       gap: 15px;
+    top: 30px;
+      
     }
 
-    .paragraphs-5 h4 {
-        width: 800px;
-        font-size: 16px;
+ .butter{
+    margin: 0;
+ }
+    .image-big  img{
+            padding: 0 30px;
+            height: 400px;
+           
+        }
+        .the-second-theree{
+            font-size: 10px;
+          gap: 10px;
+          margin-top: 20px;
+        }
+        .price{
+            margin: 0;
+            padding: 0;
+        }
+        
     }
-
-    .paragraphs-5 p {
-        font-size: 22px;
-    }
-
-    .image-5-page img {
-        height: 70px;
-    }
-
-    .iamge-1-2 {
-        display: flex;
-        align-items: end;
-        padding-right: 30px;
-        gap: 20px;
-        justify-content: center;
-    }
-
-    .image-big-5-2 {
-        position: static;
-    }
-
-    .image-big-5-1 img {
-        width: 100%;
-        height: 400px;
-    }
-
-    .image-big-5-2 img {
-        width: 70%;
-    }
-
-    .b-l {
-        flex-direction: column;
-
-    }
-
-    .h1-6 p {
-        width: 750px;
-    }
-
-    .image-page-6 {
-        width: 100%;
-        flex-direction: column;
-
-    }
-
-    .background-image {
-        flex-direction: column;
-        width: 70%;
-
-    }
-
-    .b-i-h1 {
-        flex-direction: column;
-        padding: 0 40px;
-    }
-
-    .lasts-page {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        gap: 0;
-        width: 100%;
-        margin-top: -80px;
-    }
-
-    .background-image-page-6 {
-        width: 100%;
-        height: 1100px;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer {
-        margin: 0;
-    }
-
-    .footer img {
-        width: 130px;
-    }
-
-    .ins img {
-        width: 50px;
-    }
-
-    .images-i-t-p {
-        display: flex;
-        justify-content: center;
-    }
-
-    .twitter img {
-        width: 50px;
-    }
-
-    .pentris img {
-        width: 50px;
-    }
-
-    .menus {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .menu h2 {
-        font-size: 15px;
-    }
-
-    .menu {
-        margin-top: 20px;
-        font-size: 15px;
-        gap: 0;
-        padding-left: 10px;
-    }
-
-    .subscribe-btn {
-        background-color: black;
-        color: white;
-        border: none;
-        padding: 10px 25px;
-        border-radius: 30px;
-        font-size: 16px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    input[type="email"] {
-        padding: 10px 6px;
-        border: 2px solid #ccc;
-        border-radius: 20px;
-        font-size: 14px;
-        width: 520px;
-    }
-
-    .twitter img {
-        font-size: 15px;
-    }
-
-}
-@media (max-width: 1200px){
-      #humber {
-        display: block;
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        font-size: 27px;
-        z-index: 1001;
-        cursor: pointer;
-        direction: ltr;
-        position: fixed;
-    }
-
-    #humber i {
-        color: black;
-        transition: color 0.3s ease;
-    }
-
-    #menu-toggle:checked+#humber i {
-        color: white;
-    }
-
-    .items {
-        position: fixed;
-        top: 0;
-        right: -300px;
-        width: 250px;
-        height: 100vh;
-        flex-direction: column;
-        align-items: flex-start;
-        background-color: black;
-        padding: 40px 20px;
-        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
-        transition: right 0.3s ease;
-        z-index: 1000;
-    }
-
-    .header-icon {
-        display: block;
-        position: relative;
-        margin-bottom: 20px;
-    }
-
-    .header-name,
-    .Contact,
-    .shop-icon {
-        display: none;
-    }
-
-    #menu-toggle:checked~.header-main {
-        right: 0;
-    }
-
-    #menu-toggle:checked~.header-main .header-name,
-    #menu-toggle:checked~.header-main,
-    #menu-toggle:checked~.header-main {
-        display: block;
-        margin-top: 20px;
-    }
-
-    .header-name ul {
-        flex-direction: column;
-        gap: 15px;
-        margin-left: 0;
-        background-color: black;
-        color: white;
-        justify-content: start;
-    }
-
-    .header-name-ul li span::before,
-    .header-name-ul li span::after {
-        display: none;
-    }
-
-    .header-name-ul li {
-        border: 1px solid black;
-        border-radius: 40px;
-        background-color: black;
-        color: white;
-        overflow: hidden;
-        transition: color 0.3s ease;
-        text-align: left;
-    }
-
-    .header-name-ul li::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 100%;
-        z-index: 0;
-        transition: width 0.4s ease;
-        border-radius: 40px;
-    }
-
-    .header-name-ul li {
-        border: 1px solid black;
-        padding: 5px 15px;
-        background-color: black;
-        color: white;
-    }
-
-    .header-name-ul li:hover {
-        border: 1px solid white;
-        padding: 5px 15px;
-        background-color: white;
-        color: black;
-    }
-
-    .header-name-ul li span {
-        position: relative;
-        z-index: 1;
-    }
-}
-
