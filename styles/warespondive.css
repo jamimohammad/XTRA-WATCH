@@ -9,7 +9,7 @@
         padding: 0 30px;
         justify-content: center;
         display: flex;
-        margin-left: 10px ;
+        margin-left: 10px;
     }
 
     body {
@@ -238,17 +238,20 @@
         font-size: 15px;
     }
 }
-@media (max-width: 992px) and (min-width: 768px){
 
-    body{
+@media (max-width: 992px) and (min-width: 768px) {
+
+    body {
         overflow-x: hidden;
     }
+
     .logo {
         position: relative;
-         width: 200px; 
+        width: 200px;
         margin-right: 350px;
-      
+
     }
+
     #humber {
         display: block;
         position: absolute;
@@ -332,7 +335,7 @@
         display: none;
     }
 
- .Watches {
+    .Watches {
         padding: 0 15px;
     }
 
@@ -458,5 +461,113 @@
 
     .twitter img {
         font-size: 15px;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .logo {
+        position: relative;
+        width: 200px;
+        margin-right: 500px;
+
+    }
+
+    #humber {
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+        z-index: 1000;
+        cursor: pointer;
+        direction: ltr;
+        justify-content: end;
+    }
+
+    #humber i {
+        color: black;
+        transition: color 1s ease;
+    }
+
+    .box {
+        color: white;
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        width: 300px;
+        top: -10px;
+        height: 700px;
+        bottom: -145px;
+        right: -20px;
+        border-radius: 30px;
+        padding: 20px;
+        z-index: 999;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .box a:hover {
+        color: black;
+        background-color: white;
+        border: 1px solid white;
+        padding: 8px 10px;
+        border-radius: 20px;
+
+    }
+
+    #menu-toggle:checked+#humber+.header .box {
+        display: flex;
+    }
+
+    .menu-button {
+        cursor: pointer;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .menu-button:hover+.dropdown-menu {
+        display: block;
+
+    }
+
+    #menu-toggle:checked+#humber i {
+        color: white;
+
+    }
+
+    .dropdown a {
+        background-color: black;
+        color: white;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .button-contact {
+        display: none;
+    }
+      .photo-watch {
+        height: 160px;
+        width: 160px;
+        margin: 20px auto 0 auto;
+    }
+
+    .photo-watch img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
     }
 }
