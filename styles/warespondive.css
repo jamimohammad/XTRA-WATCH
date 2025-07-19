@@ -466,7 +466,7 @@
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
-    body{
+    body {
         overflow-x: hidden;
     }
 
@@ -559,7 +559,8 @@
     .button-contact {
         display: none;
     }
-      .photo-watch {
+
+    .photo-watch {
         height: 160px;
         width: 160px;
         margin: 20px auto 0 auto;
