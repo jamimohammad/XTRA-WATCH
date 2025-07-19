@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="./styles/FAQ.css">
+    <link rel="stylesheet" href="./styles/responsive.faq.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
+
+<input type="checkbox" id="menu-toggle" hidden />
+<label for="menu-toggle" id="humber">
+    <i class="fa-solid fa-bars"></i>
+</label>
 
 <body>
     <div class="header">
@@ -83,7 +87,7 @@
             </div>
             <div class="logo-contact">
                 <div class="contact-shop">
-                    <img src="./images/Capture.PNG">
+                    <i class="fas fa-shopping-cart"></i>
                     <span class="logo-image">0</span>
                 </div>
             </div>
@@ -110,7 +114,7 @@
     <div class="second-page">
         <div class="back-s-p">
             <div class="img-q">
-             <i class="fa-solid fa-envelope" id="icon" style="color: #e9eaed;"></i>
+                <i class="fa-solid fa-envelope" id="icon" style="color: #e9eaed;"></i>
                 <div class="h2-p">
                     <h2>ask us ...</h2>
                     <p>have a question ❔</p>
@@ -122,7 +126,7 @@
             <div class="bg-s-p">
 
                 <label>
-                    <input type="text" name="name" class="sea" />
+                    <input type="text" name="name" class="sea" id="input" />
                 </label>
             </div>
 
@@ -132,7 +136,7 @@
             <div class="bg-s-p">
 
                 <label>
-                    <input type="text" name="name" class="sea" />
+                    <input type="text" name="name" class="sea" id="input" />
                 </label>
             </div>
 
@@ -142,7 +146,7 @@
             <div class="bg-s-p">
 
                 <label>
-                    <input type="text" name="name" class="sea" />
+                    <input type="text" name="name" class="sea" id="input" />
                 </label>
             </div>
 
@@ -152,7 +156,7 @@
             <div class="bg-s-p">
 
                 <label>
-                    <input type="text" name="name" class="sea" placeholder="business depertment" />
+                    <input type="text" name="name" class="sea" placeholder="business depertment" id="input" />
                 </label>
             </div>
             <div class="h-n">
@@ -169,16 +173,17 @@
 
         <div class="all">
             <div class="img-q">
-         <i class="fa-regular fa-circle-question" id="icon" style="color: #f0f2f4;"></i>
+                <i class="fa-regular fa-circle-question" id="icon" style="color: #f0f2f4;"></i>
                 <div class="h2-p">
                     <h2>ask us ...</h2>
                     <p>have a question ❔</p>
                 </div>
             </div>
             <div class="de-bg">
-                <details>
+                <details >
                     <summary>your question title</summary>
-                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                        consectetur
                         adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
                 </details>
             </div>
@@ -186,7 +191,17 @@
             <div class="de-bg">
                 <details>
                     <summary>your question title</summary>
-                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+                </details>
+            </div>
+
+            <div class="de-bg">
+                <details id="summery">
+                    <summary>your question title</summary>
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                        consectetur
                         adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
                 </details>
             </div>
@@ -194,23 +209,17 @@
             <div class="de-bg">
                 <details>
                     <summary>your question title</summary>
-                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+                    <p> I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                        consectetur
                         adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
                 </details>
             </div>
 
             <div class="de-bg">
-                <details>
+                <details id="summ">
                     <summary>your question title</summary>
-                    <p> I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
-                </details>
-            </div>
-
-            <div class="de-bg">
-                <details>
-                    <summary>your question title</summary>
-                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                        consectetur
                         adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo </p>
                 </details>
             </div>
@@ -226,7 +235,8 @@
             <div class="de-bg">
                 <details>
                     <summary>your question title</summary>
-                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                        consectetur
                         adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
                 </details>
             </div>
@@ -234,65 +244,66 @@
             <div class="de-bg">
                 <details>
                     <summary>your question title</summary>
-                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                        consectetur
                         adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
                 </details>
             </div>
         </div>
     </div>
-
- <div class="last-page">
-        <div class="background-image-page-6">
-            <div class="lasts-page">
-                <br /><br /><br />
-                <div class="footer">
-                    <img src="./images/logo-watch-shop (1).png">
-                    <p>A smartwatch is a wearable computer in the form of a watch; modern <br />
-                        smartwatches provide a local touchscreen interface for daily use.</p>
-                    <br />
-                    <div class="images-i-t-p">
-                        <div class="twitter">
-                            <img src="./images/twitter.svg">
+    
+        <div class="last-page">
+            <div class="background-image-page-6">
+                <div class="lasts-page">
+                    <br /><br /><br />
+                    <div class="footer">
+                        <img src="./images/logo-watch-shop (1).png">
+                        <p>A smartwatch is a wearable computer in the form of a watch; modern <br />
+                            smartwatches provide a local touchscreen interface for daily use.</p>
+                        <br />
+                        <div class="images-i-t-p">
+                            <div class="twitter">
+                                <img src="./images/twitter.svg">
+                            </div>
+                            <div class="ins">
+                                <img src="./images/instagram.svg">
+                            </div>
+                            <div class="pentris">
+                                <img src="./images/pinterest.svg">
+                            </div>
                         </div>
-                        <div class="ins">
-                            <img src="./images/instagram.svg">
+                        <br /> <br />
+                        <h5>XTRA Shop © 2025 All Rights Reserved</h5>
+                    </div>
+                    <div class="menus">
+                        <div class="menu">
+                            <h2>menu</h2>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Books</a></li>
+                            <li><a href="#">Collection</a></li>
+                            <li><a href="#">Categories</a></li>
                         </div>
-                        <div class="pentris">
-                            <img src="./images/pinterest.svg">
+                        <div class="menu">
+                            <h2>Support</h2>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Terms & condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Report</a></li>
                         </div>
-                    </div>
-                    <br /> <br />
-                    <h5>XTRA Shop © 2025 All Rights Reserved</h5>
-                </div>
-                <div class="menus">
-                    <div class="menu">
-                        <h2>menu</h2>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Books</a></li>
-                        <li><a href="#">Collection</a></li>
-                        <li><a href="#">Categories</a></li>
-                    </div>
-                    <div class="menu">
-                        <h2>Support</h2>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Terms & condition</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Report</a></li>
-                    </div>
-                    <div class="menu">
-                        <h2>Stay in Touch</h2>
-                        <div class="subscribe-box">
-                            <input type="email" placeholder="Enter your email" />
+                        <div class="menu">
+                            <h2>Stay in Touch</h2>
+                            <div class="subscribe-box">
+                                <input type="email" placeholder="Enter your email" />
+                                <br /><br />
+                                <button class="subscribe-btn">subscribe</button>
+                            </div>
                             <br /><br />
-                            <button class="subscribe-btn">subscribe</button>
+                            <h5>Track Your order</h5>
                         </div>
-                        <br /><br />
-                        <h5>Track Your order</h5>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 </body>
 
