@@ -16,11 +16,11 @@ body {
     display: flex;
     align-items: center;
     gap: 135px;
-    justify-content: center;
 }
 
 .logo img {
     height: 30px;
+    margin-left: 20px;
 }
 
 .collections a {
