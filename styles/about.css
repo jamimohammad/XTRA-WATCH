@@ -13,11 +13,13 @@ body {
     display: flex;
     align-items: center;
     gap: 135px;
-  justify-content: center;
+    justify-content: center;
 }
-#humber{
+
+#humber {
     display: none;
 }
+
 .logo img {
     height: 30px;
 }
@@ -55,15 +57,6 @@ body {
     background-color: cornflowerblue;
 }
 
-.logo-contact img {
-    height: 55px;
-    border: 1px;
-    border: 1px solid black;
-    opacity: 0.6;
-    padding: 11px 11px;
-    border-radius: 30px;
-
-}
 
 .button-contact {
     display: flex;
@@ -430,7 +423,7 @@ body {
 }
 
 .img-b img {
-     margin-top: 50px;
+    margin-top: 50px;
     height: 550px;
     width: 100%;
     border-radius: 7px;
