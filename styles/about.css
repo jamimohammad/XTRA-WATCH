@@ -13,9 +13,11 @@ body {
     display: flex;
     align-items: center;
     gap: 135px;
-    justify-content: center;
+  justify-content: center;
 }
-
+#humber{
+    display: none;
+}
 .logo img {
     height: 30px;
 }
@@ -428,10 +430,10 @@ body {
 }
 
 .img-b img {
-    width: 600px;
-    height: 600px;
+     margin-top: 50px;
+    height: 550px;
+    width: 100%;
     border-radius: 7px;
-
 }
 
 .back-img {
@@ -495,7 +497,6 @@ body {
     border-radius: 100px;
     justify-content: center
 }
-
 
 .third-page {
     margin-top: 100px;
