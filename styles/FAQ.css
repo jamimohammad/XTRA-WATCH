@@ -16,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     gap: 135px;
+    justify-content: center;
 }
 
 .logo img {
@@ -397,7 +398,7 @@ body {
   
 }
 .sea{
-      padding: 17px 90px;
+      padding: 15px 70px;
     border-radius: 20px;
     border: 1px solid black;
 }

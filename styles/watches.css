@@ -536,12 +536,14 @@ input[type="email"] {
     text-decoration: none;
 }
 
-.dropdown-menu li a:hover {
-    background-color: white;
-}
+
 
 .menu:hover .dropdown-menu {
     display: block;
+}
+.dropdown-menu li a:hover {
+    color: white;
+    border-left: 4px solid white;
 }
 
 .navbar {
@@ -760,7 +762,4 @@ border: none;
 }
 .button-1-2{
     margin-top: 1000px;
-}
-#buy{
- 
 }
