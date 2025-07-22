@@ -161,14 +161,6 @@ body {
 
 }
 
-/* .box a.active::before,
-.box a.active::after,
-.box a:hover::before,
-.box a:hover::after {
-    transform: scaleX(1);
-} */
-
-
 .button-productc img {
     width: 20px;
 }
@@ -191,11 +183,11 @@ body {
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.01);
     opacity: 0.7;
-    margin-left: 85px;
+    margin-left: 150px;
 }
 
 .h4 {
-    margin-left: 85px;
+    margin-left: 150px;
 }
 
 .four-watch {
@@ -690,7 +682,7 @@ border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 50px;
     padding-top: 50px;
 }
 
