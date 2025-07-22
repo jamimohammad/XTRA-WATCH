@@ -1,7 +1,5 @@
 @media (max-width: 768px) {
-    .logo img {
-        margin-right: 220px;
-    }
+   
 
     .h4 {
         margin-bottom: -50px;
@@ -34,7 +32,9 @@
         direction: ltr;
         justify-content: end;
     }
-
+.logo{
+    width: 100%;
+}
     #humber i {
         color: black;
         transition: color 1s ease;
@@ -245,12 +245,9 @@
         overflow-x: hidden;
     }
 
-    .logo {
-        position: relative;
-        width: 200px;
-        margin-right: 350px;
-
-    }
+  .logo{
+    width: 100%;
+}
 
     #humber {
         display: block;
@@ -470,12 +467,9 @@
         overflow-x: hidden;
     }
 
-    .logo {
-        position: relative;
-        width: 200px;
-        margin-right: 500px;
-
-    }
+  .logo{
+    width: 100%;
+}
 
     #humber {
         display: block;

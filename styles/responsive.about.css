@@ -3,7 +3,9 @@
     body {
         overflow-x: hidden;
     }
-
+.a{
+    display: none;
+}
     #humber {
         display: block;
         position: absolute;
@@ -299,7 +301,9 @@
         direction: ltr;
         justify-content: end;
     }
-
+.a{
+    display: none;
+}
     .dropdown-menu {
         display: none;
     }
@@ -599,7 +603,9 @@
         height: auto;
         
     }
-
+.a{
+    display: none;
+}
     .bg-img {
         display: none;
     }

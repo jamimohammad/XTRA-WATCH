@@ -1,8 +1,9 @@
 @media (max-width: 768px) {
 
-  body{
-    overflow-x: hidden;
-  }
+    html,
+    body {
+        overflow-x: hidden;
+    }
 
     #humber {
         display: block;
@@ -14,7 +15,9 @@
         direction: ltr;
         justify-content: end;
     }
-
+  .a {
+        display: flex;
+    }
     .dropdown-menu {
         display: none;
     }
@@ -136,7 +139,7 @@
 
     .image-1 img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .second-page {
@@ -167,35 +170,44 @@
     .image-p-2 img {
         width: 100%;
     }
-    .background-image-second{
+
+    .background-image-second {
         margin-top: 400px;
         width: 100%;
         height: auto;
     }
-    .background-image-third{
+
+    .background-image-third {
         width: 100%;
         margin-right: 800px;
     }
-     .p-3{
+
+    .p-3 {
         width: 100%;
         margin-right: 400px;
-     }
-    .background-image-third p{
+    }
+
+    .background-image-third p {
         display: none;
     }
-    .background-image-third h2{
+
+    .background-image-third h2 {
         display: none;
     }
-     .background-image-third a{
+
+    .background-image-third a {
         display: none;
     }
-    .image-1{
+
+    .image-1 {
         height: auto;
     }
-   .button-1-2{
-    margin-top: 100px;
-   }
-   .lasts-page {
+
+    .button-1-2 {
+        margin-top: 100px;
+    }
+
+    .lasts-page {
         flex-direction: column;
         text-align: center;
         align-items: center;
@@ -281,11 +293,15 @@
     .twitter img {
         font-size: 15px;
     }
+
+  
 }
-@media (max-width: 992px) and (min-width: 768px){
-    body{
+
+@media (max-width: 992px) and (min-width: 768px) {
+    body {
         overflow-x: hidden;
     }
+
     #humber {
         display: block;
         position: absolute;
@@ -304,6 +320,10 @@
     #humber i {
         color: black;
         transition: color 1s ease;
+    }
+
+    .a {
+        display: flex;
     }
 
     .box {
@@ -443,35 +463,44 @@
     .image-p-2 img {
         width: 100%;
     }
-    .background-image-second{
+
+    .background-image-second {
         margin-top: 400px;
         width: 100%;
         height: auto;
     }
-    .background-image-third{
+
+    .background-image-third {
         width: 100%;
         margin-right: 800px;
     }
-     .p-3{
+
+    .p-3 {
         width: 100%;
         margin-right: 400px;
-     }
-    .background-image-third p{
+    }
+
+    .background-image-third p {
         display: none;
     }
-    .background-image-third h2{
+
+    .background-image-third h2 {
         display: none;
     }
-     .background-image-third a{
+
+    .background-image-third a {
         display: none;
     }
-    .image-1{
+
+    .image-1 {
         height: auto;
     }
-   .button-1-2{
-    margin-top: 100px;
-   }
-   .lasts-page {
+
+    .button-1-2 {
+        margin-top: 100px;
+    }
+
+    .lasts-page {
         flex-direction: column;
         text-align: center;
         align-items: center;
@@ -560,11 +589,12 @@
 
 }
 
-@media (max-width: 1200px) and (min-width: 992px){
-    
-    body{
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    body {
         overflow-x: hidden;
     }
+
     #humber {
         display: block;
         position: absolute;
@@ -575,7 +605,9 @@
         direction: ltr;
         justify-content: end;
     }
-
+  .a {
+        display: flex;
+    }
     .dropdown-menu {
         display: none;
     }
@@ -583,6 +615,10 @@
     #humber i {
         color: black;
         transition: color 1s ease;
+    }
+
+    .a {
+        display: none;
     }
 
     .box {
@@ -722,35 +758,44 @@
     .image-p-2 img {
         width: 100%;
     }
-    .background-image-second{
+
+    .background-image-second {
         margin-top: 400px;
         width: 100%;
         height: auto;
     }
-    .background-image-third{
+
+    .background-image-third {
         width: 100%;
         margin-right: 800px;
     }
-     .p-3{
+
+    .p-3 {
         width: 100%;
         margin-right: 400px;
-     }
-    .background-image-third p{
+    }
+
+    .background-image-third p {
         display: none;
     }
-    .background-image-third h2{
+
+    .background-image-third h2 {
         display: none;
     }
-     .background-image-third a{
+
+    .background-image-third a {
         display: none;
     }
-    .image-1{
+
+    .image-1 {
         height: auto;
     }
-   .button-1-2{
-    margin-top: 100px;
-   }
-   .lasts-page {
+
+    .button-1-2 {
+        margin-top: 100px;
+    }
+
+    .lasts-page {
         flex-direction: column;
         text-align: center;
         align-items: center;
