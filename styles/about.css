@@ -93,7 +93,7 @@ body {
 
 .box a.active,
 .box a:hover {
-    color: black;
+    color: gray;
 
 }
 

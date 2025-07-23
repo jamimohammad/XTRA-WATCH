@@ -136,7 +136,11 @@ body {
     transform: scaleX(1);
 }
 
+.box a.active,
+.box a:hover {
+    color: gray;
 
+}
 
 .menu {
     position: relative;
@@ -357,24 +361,25 @@ body {
     align-items: center;
     gap: 10px;
 }
-
-.sea {
-    padding: 17px 5px;
-    border-radius: 20px;
-    border: 1px solid black;
+.search label input{
+    padding: 13px 60px;
+    width: 100%;
+    border-radius: 30px;
+    min-width: 10%;
 }
 
-.search-button a {
-    padding: 18px 25px;
+.search-button  {
+    padding: 13px 20px;
     text-decoration: none;
     color: white;
     border: 1px solid #007bff;
     background-color: #007bff;
     border-radius: 30px;
+    width: 50%;
 }
 
 .search-button a:hover {
-    background-color: #1e1f25;
+    color: black;
 }
 
 .background-2-first-page {

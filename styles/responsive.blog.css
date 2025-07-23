@@ -4,6 +4,15 @@
     body {
         overflow-x: hidden;
     }
+    button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
+    }
+
+    .price {
+        padding: 0;
+    }
 
     #humber {
         display: block;
@@ -15,69 +24,80 @@
         direction: ltr;
         justify-content: end;
     }
-  .a {
-        display: flex;
+
+    .logo {
+        width: 100%;
+        margin-top: 10px;
     }
+
     .dropdown-menu {
+        display: none;
+    }
+
+    .a {
         display: none;
     }
 
     #humber i {
         color: black;
         transition: color 1s ease;
+        margin-top: 20px;
+       
     }
 
     .box {
         color: white;
-        display: none;
         flex-direction: column;
+        display: none;
         background-color: black;
         position: absolute;
-        width: 300px;
-        top: -10px;
-        height: 700px;
+        width: 350px;
+        top: -5px;
+        height: 750px;
         bottom: -145px;
         right: -20px;
-        border-radius: 30px;
+        border-radius: 0 30px;
         padding: 20px;
         z-index: 999;
         gap: 30px;
-        align-items: center;
+        align-items: start;
+        
     }
 
     .box a:hover {
         color: black;
         background-color: white;
-        border: 1px solid white;
-        padding: 8px 10px;
+      transition: 1s;
+        padding: 15px 100px;
         border-radius: 20px;
-
     }
 
     #menu-toggle:checked+#humber+.header .box {
         display: flex;
     }
-
-    .menu-button {
-        cursor: pointer;
+    .home{
+      margin-top: 30px;  
     }
 
-    .dropdown-menu {
-        display: none;
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
     }
 
     .menu-button:hover+.dropdown-menu {
         display: block;
-
     }
 
     #menu-toggle:checked+#humber i {
         color: white;
 
     }
-
     .dropdown a {
-        background-color: black;
+        background-color:black;
+        padding: 5px;
         color: white;
     }
 
@@ -85,14 +105,16 @@
         display: none;
     }
 
-    .header {
-
-        align-items: flex-start;
-
+    .button-products {
+        display: none;
     }
 
     .button-contact {
         display: none;
+    }
+
+    .logo {
+        width: 100%;
     }
 
     .first-page {
@@ -108,10 +130,10 @@
 
     }
 
-    #see {
+    /* #see {
         width: 100%;
 
-    }
+    } */
 
     .background-2-first-page {
         width: 100%;
@@ -302,6 +324,16 @@
         overflow-x: hidden;
     }
 
+       button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
+    }
+
+    .price {
+        padding: 0;
+    }
+
     #humber {
         display: block;
         position: absolute;
@@ -313,70 +345,79 @@
         justify-content: end;
     }
 
+    .logo {
+        width: 100%;
+        margin-top: 10px;
+    }
+
     .dropdown-menu {
+        display: none;
+    }
+
+    .a {
         display: none;
     }
 
     #humber i {
         color: black;
         transition: color 1s ease;
-    }
-
-    .a {
-        display: flex;
+        margin-top: 20px;
+       
     }
 
     .box {
         color: white;
-        display: none;
         flex-direction: column;
+        display: none;
         background-color: black;
         position: absolute;
-        width: 300px;
-        top: -10px;
-        height: 700px;
+        width: 350px;
+        top: -5px;
+        height: 750px;
         bottom: -145px;
         right: -20px;
-        border-radius: 30px;
+        border-radius: 0 30px;
         padding: 20px;
         z-index: 999;
         gap: 30px;
-        align-items: center;
+        align-items: start;
+        
     }
 
     .box a:hover {
         color: black;
         background-color: white;
-        border: 1px solid white;
-        padding: 8px 10px;
+      transition: 1s;
+        padding: 15px 100px;
         border-radius: 20px;
-
     }
 
     #menu-toggle:checked+#humber+.header .box {
         display: flex;
     }
-
-    .menu-button {
-        cursor: pointer;
+    .home{
+      margin-top: 30px;  
     }
 
-    .dropdown-menu {
-        display: none;
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
     }
 
     .menu-button:hover+.dropdown-menu {
         display: block;
-
     }
 
     #menu-toggle:checked+#humber i {
         color: white;
 
     }
-
     .dropdown a {
-        background-color: black;
+        background-color:black;
+        padding: 5px;
         color: white;
     }
 
@@ -384,16 +425,17 @@
         display: none;
     }
 
-    .header {
-
-        align-items: flex-start;
-
+    .button-products {
+        display: none;
     }
 
     .button-contact {
         display: none;
     }
 
+    .logo {
+        width: 100%;
+    }
     .background-1-first-page {
         width: 100%;
     }
@@ -437,8 +479,6 @@
         height: auto;
     }
 
-
-
     .background-image-second p {
         display: none;
     }
@@ -450,10 +490,13 @@
     .background-image-1-second h2 {
         display: none;
     }
-
+.background-image-1-second{
+    width: 100%;
+}
     .background-second-page {
         position: relative;
         width: 100%;
+
     }
 
     .image-p-2 {
@@ -465,7 +508,7 @@
     }
 
     .background-image-second {
-        margin-top: 400px;
+        /* margin-top: 400px; */
         width: 100%;
         height: auto;
     }
@@ -594,6 +637,15 @@
     body {
         overflow-x: hidden;
     }
+    button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
+    }
+
+    .price {
+        padding: 0;
+    }
 
     #humber {
         display: block;
@@ -605,73 +657,80 @@
         direction: ltr;
         justify-content: end;
     }
-  .a {
-        display: flex;
+
+    .logo {
+        width: 100%;
+        margin-top: 10px;
     }
+
     .dropdown-menu {
+        display: none;
+    }
+
+    .a {
         display: none;
     }
 
     #humber i {
         color: black;
         transition: color 1s ease;
-    }
-
-    .a {
-        display: none;
+        margin-top: 20px;
+       
     }
 
     .box {
         color: white;
-        display: none;
         flex-direction: column;
+        display: none;
         background-color: black;
         position: absolute;
-        width: 300px;
-        top: -10px;
-        height: 700px;
+        width: 350px;
+        top: -5px;
+        height: 750px;
         bottom: -145px;
         right: -20px;
-        border-radius: 30px;
+        border-radius: 0 30px;
         padding: 20px;
         z-index: 999;
         gap: 30px;
-        align-items: center;
+        align-items: start;
+        
     }
 
     .box a:hover {
         color: black;
         background-color: white;
-        border: 1px solid white;
-        padding: 8px 10px;
+      transition: 1s;
+        padding: 15px 100px;
         border-radius: 20px;
-
     }
 
     #menu-toggle:checked+#humber+.header .box {
         display: flex;
     }
-
-    .menu-button {
-        cursor: pointer;
+    .home{
+      margin-top: 30px;  
     }
 
-    .dropdown-menu {
-        display: none;
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
     }
 
     .menu-button:hover+.dropdown-menu {
         display: block;
-
     }
 
     #menu-toggle:checked+#humber i {
         color: white;
 
     }
-
     .dropdown a {
-        background-color: black;
+        background-color:black;
+        padding: 5px;
         color: white;
     }
 
@@ -679,16 +738,17 @@
         display: none;
     }
 
-    .header {
-
-        align-items: flex-start;
-
+    .button-products {
+        display: none;
     }
 
     .button-contact {
         display: none;
     }
 
+    .logo {
+        width: 100%;
+    }
     .background-1-first-page {
         width: 100%;
     }
