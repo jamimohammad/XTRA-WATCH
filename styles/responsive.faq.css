@@ -1,97 +1,116 @@
  @media (max-width: 768px) {
+    button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
+    }
 
-     #humber {
-         display: block;
-         position: absolute;
-         right: 20px;
-         font-size: 24px;
-         z-index: 1000;
-         cursor: pointer;
-         direction: ltr;
-         justify-content: end;
-     }
+    .price {
+        padding: 0;
+    }
 
-     .a {
-         display: flex;
-     }
+    #humber {
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+        z-index: 1000;
+        cursor: pointer;
+        direction: ltr;
+        justify-content: end;
+    }
 
-     .dropdown-menu {
-         display: none;
-     }
+    .logo {
+        width: 100%;
+        margin-top: 10px;
+    }
 
-     #humber i {
-         color: black;
-         transition: color 1s ease;
-     }
+    .dropdown-menu {
+        display: none;
+    }
 
-     .box {
-         color: white;
-         display: none;
-         flex-direction: column;
-         background-color: black;
-         position: absolute;
-         width: 300px;
-         top: -10px;
-         height: 700px;
-         bottom: -145px;
-         right: -20px;
-         border-radius: 30px;
-         padding: 20px;
-         z-index: 999;
-         gap: 30px;
-         align-items: center;
-     }
+    .a {
+        display: none;
+    }
 
-     .box a:hover {
-         color: black;
-         background-color: white;
-         border: 1px solid white;
-         padding: 8px 10px;
-         border-radius: 20px;
+    #humber i {
+        color: black;
+        transition: color 1s ease;
+        margin-top: 20px;
+       
+    }
 
-     }
+    .box {
+        color: white;
+        flex-direction: column;
+        display: none;
+        background-color: black;
+        position: absolute;
+        width: 350px;
+        top: -5px;
+        height: 750px;
+        bottom: -145px;
+        right: -20px;
+        border-radius: 0 30px;
+        padding: 20px;
+        z-index: 999;
+        gap: 30px;
+        align-items: start;
+        
+    }
 
-     #menu-toggle:checked+#humber+.header .box {
-         display: flex;
-     }
+    .box a:hover {
+        color: black;
+        background-color: white;
+      transition: 1s;
+        padding: 15px 100px;
+        border-radius: 20px;
+    }
 
-     .menu-button {
-         cursor: pointer;
-     }
+    #menu-toggle:checked+#humber+.header .box {
+        display: flex;
+    }
+    .home{
+      margin-top: 30px;  
+    }
 
-     .dropdown-menu {
-         display: none;
-     }
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
+    }
 
-     .menu-button:hover+.dropdown-menu {
-         display: block;
+    .menu-button:hover+.dropdown-menu {
+        display: block;
+    }
 
-     }
+    #menu-toggle:checked+#humber i {
+        color: white;
 
-     #menu-toggle:checked+#humber i {
-         color: white;
+    }
+    .dropdown a {
+        background-color:black;
+        padding: 5px;
+        color: white;
+    }
 
-     }
+    .a {
+        display: none;
+    }
 
-     .dropdown a {
-         background-color: black;
-         color: white;
-     }
+    .button-products {
+        display: none;
+    }
 
-     .a {
-         display: none;
-     }
+    .button-contact {
+        display: none;
+    }
 
-     .header {
-
-         align-items: flex-start;
-
-     }
-
-     .button-contact {
-         display: none;
-     }
-
+    .logo {
+        width: 100%;
+    }
      .titles {
          width: 100%;
          padding: 0 50px;
@@ -110,26 +129,25 @@
      }
 
      .second-page {
-         margin-top: 400px;
          flex-direction: column;
-         padding: 0 50px;
          width: 100%;
      }
 
      .back-s-p {
          padding: 0 50px;
-         margin-top: 400px;
          flex-direction: column;
          width: 100%;
          min-width: 80%;
          display: flex;
      }
 
-     #input {
-         width: 100%;
-     }
-
-     .img-q {
+#input{
+    width: 100%;
+}
+.titles p{
+display: none;
+}
+   .img-q {
          display: flex;
          justify-content: center;
 
@@ -233,97 +251,118 @@
  }
 
  @media (max-width:992px) and (min-width:768px) {
-     #humber {
-         display: block;
-         position: absolute;
-         right: 20px;
-         font-size: 24px;
-         z-index: 1000;
-         cursor: pointer;
-         direction: ltr;
-         justify-content: end;
-     }
+       button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
+    }
 
-     .a {
-         display: flex;
-     }
+    .price {
+        padding: 0;
+    }
 
-     .dropdown-menu {
-         display: none;
-     }
+    #humber {
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+        z-index: 1000;
+        cursor: pointer;
+        direction: ltr;
+        justify-content: end;
+    }
 
-     #humber i {
-         color: black;
-         transition: color 1s ease;
-     }
+    .logo {
+        width: 100%;
+        margin-top: 10px;
+    }
 
-     .box {
-         color: white;
-         display: none;
-         flex-direction: column;
-         background-color: black;
-         position: absolute;
-         width: 300px;
-         top: -10px;
-         height: 700px;
-         bottom: -145px;
-         right: -20px;
-         border-radius: 30px;
-         padding: 20px;
-         z-index: 999;
-         gap: 30px;
-         align-items: center;
-     }
+    .dropdown-menu {
+        display: none;
+    }
 
-     .box a:hover {
-         color: black;
-         background-color: white;
-         border: 1px solid white;
-         padding: 8px 10px;
-         border-radius: 20px;
+    .a {
+        display: none;
+    }
 
-     }
+    #humber i {
+        color: black;
+        transition: color 1s ease;
+        margin-top: 20px;
+       
+    }
 
-     #menu-toggle:checked+#humber+.header .box {
-         display: flex;
-     }
+    .box {
+        color: white;
+        flex-direction: column;
+        display: none;
+        background-color: black;
+        position: absolute;
+        width: 350px;
+        top: -5px;
+        height: 750px;
+        bottom: -145px;
+        right: -20px;
+        border-radius: 0 30px;
+        padding: 20px;
+        z-index: 999;
+        gap: 30px;
+        align-items: start;
+        
+    }
 
-     .menu-button {
-         cursor: pointer;
-     }
+    .box a:hover {
+        color: black;
+        background-color: white;
+      transition: 1s;
+        padding: 15px 100px;
+        border-radius: 20px;
+    }
 
-     .dropdown-menu {
-         display: none;
-     }
+    #menu-toggle:checked+#humber+.header .box {
+        display: flex;
+    }
+    .home{
+      margin-top: 30px;  
+    }
 
-     .menu-button:hover+.dropdown-menu {
-         display: block;
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
+    }
 
-     }
+    .menu-button:hover+.dropdown-menu {
+        display: block;
+    }
 
-     #menu-toggle:checked+#humber i {
-         color: white;
+    #menu-toggle:checked+#humber i {
+        color: white;
 
-     }
+    }
+    .dropdown a {
+        background-color:black;
+        padding: 5px;
+        color: white;
+    }
 
-     .dropdown a {
-         background-color: black;
-         color: white;
-     }
+    .a {
+        display: none;
+    }
 
-     .a {
-         display: none;
-     }
+    .button-products {
+        display: none;
+    }
 
-     .header {
+    .button-contact {
+        display: none;
+    }
 
-         align-items: flex-start;
-     }
-
-     .button-contact {
-         display: none;
-     }
-
+    .logo {
+        width: 100%;
+    }
      .titles {
          width: 100%;
          padding: 0 50px;
@@ -358,9 +397,12 @@
          display: flex;
      }
 
-     #input {
-         width: 100%;
-     }
+    .h-n h2{
+    justify-content: start;
+}
+#input{
+    width: 90%;
+} 
 
      .img-q {
          display: flex;
@@ -462,96 +504,118 @@
 
  @media (max-width: 1200px) and (min-width: 992px) {
 
-     .a {
-         display: flex;
-     }
+       button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
+    }
 
-     #humber {
-         display: block;
-         position: absolute;
-         right: 20px;
-         font-size: 24px;
-         z-index: 1000;
-         cursor: pointer;
-         direction: ltr;
-         justify-content: end;
-     }
+    .price {
+        padding: 0;
+    }
 
-     .dropdown-menu {
-         display: none;
-     }
+    #humber {
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+        z-index: 1000;
+        cursor: pointer;
+        direction: ltr;
+        justify-content: end;
+    }
 
-     #humber i {
-         color: black;
-         transition: color 1s ease;
-     }
+    .logo {
+        width: 100%;
+        margin-top: 10px;
+    }
 
-     .box {
-         color: white;
-         display: none;
-         flex-direction: column;
-         background-color: black;
-         position: absolute;
-         width: 300px;
-         top: -10px;
-         height: 700px;
-         bottom: -145px;
-         right: -20px;
-         border-radius: 30px;
-         padding: 20px;
-         z-index: 999;
-         gap: 30px;
-         align-items: center;
-     }
+    .dropdown-menu {
+        display: none;
+    }
 
-     .box a:hover {
-         color: black;
-         background-color: white;
-         border: 1px solid white;
-         padding: 8px 10px;
-         border-radius: 20px;
+    .a {
+        display: none;
+    }
 
-     }
+    #humber i {
+        color: black;
+        transition: color 1s ease;
+        margin-top: 20px;
+       
+    }
 
-     #menu-toggle:checked+#humber+.header .box {
-         display: flex;
-     }
+    .box {
+        color: white;
+        flex-direction: column;
+        display: none;
+        background-color: black;
+        position: absolute;
+        width: 350px;
+        top: -5px;
+        height: 750px;
+        bottom: -145px;
+        right: -20px;
+        border-radius: 0 30px;
+        padding: 20px;
+        z-index: 999;
+        gap: 30px;
+        align-items: start;
+        
+    }
 
-     .menu-button {
-         cursor: pointer;
-     }
+    .box a:hover {
+        color: black;
+        background-color: white;
+      transition: 1s;
+        padding: 15px 100px;
+        border-radius: 20px;
+    }
 
-     .dropdown-menu {
-         display: none;
-     }
+    #menu-toggle:checked+#humber+.header .box {
+        display: flex;
+    }
+    .home{
+      margin-top: 30px;  
+    }
 
-     .menu-button:hover+.dropdown-menu {
-         display: block;
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
+    }
 
-     }
+    .menu-button:hover+.dropdown-menu {
+        display: block;
+    }
 
-     #menu-toggle:checked+#humber i {
-         color: white;
+    #menu-toggle:checked+#humber i {
+        color: white;
 
-     }
+    }
+    .dropdown a {
+        background-color:black;
+        padding: 5px;
+        color: white;
+    }
 
-     .dropdown a {
-         background-color: black;
-         color: white;
-     }
+    .a {
+        display: none;
+    }
 
-     .a {
-         display: none;
-     }
+    .button-products {
+        display: none;
+    }
 
-     .header {
-         align-items: flex-start;
-     }
+    .button-contact {
+        display: none;
+    }
 
-     .button-contact {
-         display: none;
-     }
-
+    .logo {
+        width: 100%;
+    }
      .titles {
          width: 100%;
          padding: 0 50px;
@@ -571,9 +635,8 @@
 
 
      .second-page {
-         margin-top: 400px;
+        margin-top: -80px;
          flex-direction: column;
-         padding: 0 50px;
          width: 100%;
      }
 
@@ -586,11 +649,10 @@
          display: flex;
      }
 
-     #input {
-         width: 100%;
-     }
-
-     .img-q {
+#input{
+    width: 100%;
+}
+   .img-q {
          display: flex;
          justify-content: center;
 
@@ -687,3 +749,4 @@
          margin-top: -80px;
      }
  }
+ 

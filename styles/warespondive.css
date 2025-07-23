@@ -1,6 +1,117 @@
 @media (max-width: 768px) {
    
+    button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
+    }
 
+    .price {
+        padding: 0;
+    }
+
+    #humber {
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+        z-index: 1000;
+        cursor: pointer;
+        direction: ltr;
+        justify-content: end;
+    }
+
+    .logo {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .a {
+        display: none;
+    }
+
+    #humber i {
+        color: black;
+        transition: color 1s ease;
+        margin-top: 20px;
+       
+    }
+
+    .box {
+        color: white;
+        flex-direction: column;
+        display: none;
+        background-color: black;
+        position: absolute;
+        width: 350px;
+        top: -5px;
+        height: 750px;
+        bottom: -145px;
+        right: -20px;
+        border-radius: 0 30px;
+        padding: 20px;
+        z-index: 999;
+        gap: 30px;
+        align-items: start;
+        
+    }
+
+    .box a:hover {
+        color: black;
+        background-color: white;
+      transition: 1s;
+        padding: 15px 100px;
+        border-radius: 20px;
+    }
+
+    #menu-toggle:checked+#humber+.header .box {
+        display: flex;
+    }
+    .home{
+      margin-top: 30px;  
+    }
+
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
+    }
+
+    .menu-button:hover+.dropdown-menu {
+        display: block;
+    }
+
+    #menu-toggle:checked+#humber i {
+        color: white;
+
+    }
+    .dropdown a {
+        background-color:black;
+        padding: 5px;
+        color: white;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .button-products {
+        display: none;
+    }
+
+    .button-contact {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
     .h4 {
         margin-bottom: -50px;
         width: 100%;
@@ -21,96 +132,7 @@
         padding: 0 30px;
     }
 
-    #humber {
-        display: block;
-        position: absolute;
-        right: 20px;
-        /* left: auto; */
-        font-size: 24px;
-        z-index: 1000;
-        cursor: pointer;
-        direction: ltr;
-        justify-content: end;
-    }
-.logo{
-    width: 100%;
-}
-    #humber i {
-        color: black;
-        transition: color 1s ease;
-    }
-
-    .box {
-        color: white;
-        display: none;
-        flex-direction: column;
-        background-color: black;
-        position: absolute;
-        width: 300px;
-        top: -10px;
-        height: 700px;
-        bottom: -145px;
-        right: -20px;
-        border-radius: 30px;
-        padding: 20px;
-        z-index: 999;
-        gap: 30px;
-        align-items: center;
-    }
-
-    .box a:hover {
-        color: black;
-        background-color: white;
-        border: 1px solid white;
-        padding: 8px 10px;
-        border-radius: 20px;
-
-    }
-
-    #menu-toggle:checked+#humber+.header .box {
-        display: flex;
-    }
-
-    .menu-button {
-        cursor: pointer;
-    }
-
-    .dropdown-menu {
-        display: none;
-    }
-
-    .menu-button:hover+.dropdown-menu {
-        display: block;
-
-    }
-
-    #menu-toggle:checked+#humber i {
-        color: white;
-
-    }
-
-    .dropdown a {
-        background-color: black;
-        color: white;
-    }
-
-    .a {
-        display: none;
-    }
-
-    .header {
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .button-contact {
-        display: none;
-    }
-
-    .button-productc {
-        display: none;
-    }
-
+  
     .Watches {
         padding: 0 15px;
     }
@@ -125,14 +147,6 @@
         width: 100%;
         box-sizing: border-box;
         transform: scale(0.9);
-    }
-
-    .p-4 p {
-        display: none;
-    }
-
-    .p-4 h3 {
-        font-size: 27px;
     }
 
     .photo-watch {
@@ -243,11 +257,15 @@
 
     body {
         overflow-x: hidden;
+      }  button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
     }
 
-  .logo{
-    width: 100%;
-}
+    .price {
+        padding: 0;
+    }
 
     #humber {
         display: block;
@@ -260,62 +278,79 @@
         justify-content: end;
     }
 
-    #humber i {
-        color: black;
-        transition: color 1s ease;
-    }
-
-    .box {
-        color: white;
-        display: none;
-        flex-direction: column;
-        background-color: black;
-        position: absolute;
-        width: 300px;
-        top: -10px;
-        height: 700px;
-        bottom: -145px;
-        right: -20px;
-        border-radius: 30px;
-        padding: 20px;
-        z-index: 999;
-        gap: 30px;
-        align-items: center;
-    }
-
-    .box a:hover {
-        color: black;
-        background-color: white;
-        border: 1px solid white;
-        padding: 8px 10px;
-        border-radius: 20px;
-
-    }
-
-    #menu-toggle:checked+#humber+.header .box {
-        display: flex;
-    }
-
-    .menu-button {
-        cursor: pointer;
+    .logo {
+        width: 100%;
+        margin-top: 10px;
     }
 
     .dropdown-menu {
         display: none;
     }
 
+    .a {
+        display: none;
+    }
+
+    #humber i {
+        color: black;
+        transition: color 1s ease;
+        margin-top: 20px;
+       
+    }
+
+    .box {
+        color: white;
+        flex-direction: column;
+        display: none;
+        background-color: black;
+        position: absolute;
+        width: 350px;
+        top: -5px;
+        height: 750px;
+        bottom: -145px;
+        right: -20px;
+        border-radius: 0 30px;
+        padding: 20px;
+        z-index: 999;
+        gap: 30px;
+        align-items: start;
+        
+    }
+
+    .box a:hover {
+        color: black;
+        background-color: white;
+      transition: 1s;
+        padding: 15px 100px;
+        border-radius: 20px;
+    }
+
+    #menu-toggle:checked+#humber+.header .box {
+        display: flex;
+    }
+    .home{
+      margin-top: 30px;  
+    }
+
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
+    }
+
     .menu-button:hover+.dropdown-menu {
         display: block;
-
     }
 
     #menu-toggle:checked+#humber i {
         color: white;
 
     }
-
     .dropdown a {
-        background-color: black;
+        background-color:black;
+        padding: 5px;
         color: white;
     }
 
@@ -323,15 +358,17 @@
         display: none;
     }
 
-    .header {
-        flex-direction: column;
-        align-items: flex-end;
+    .button-products {
+        display: none;
     }
 
     .button-contact {
         display: none;
     }
 
+    .logo {
+        width: 100%;
+    }
     .Watches {
         padding: 0 15px;
     }
@@ -467,9 +504,15 @@
         overflow-x: hidden;
     }
 
-  .logo{
-    width: 100%;
-}
+     button {
+        position: relative;
+        width: 80%;
+        min-width: 80%;
+    }
+
+    .price {
+        padding: 0;
+    }
 
     #humber {
         display: block;
@@ -482,62 +525,79 @@
         justify-content: end;
     }
 
-    #humber i {
-        color: black;
-        transition: color 1s ease;
-    }
-
-    .box {
-        color: white;
-        display: none;
-        flex-direction: column;
-        background-color: black;
-        position: absolute;
-        width: 300px;
-        top: -10px;
-        height: 700px;
-        bottom: -145px;
-        right: -20px;
-        border-radius: 30px;
-        padding: 20px;
-        z-index: 999;
-        gap: 30px;
-        align-items: center;
-    }
-
-    .box a:hover {
-        color: black;
-        background-color: white;
-        border: 1px solid white;
-        padding: 8px 10px;
-        border-radius: 20px;
-
-    }
-
-    #menu-toggle:checked+#humber+.header .box {
-        display: flex;
-    }
-
-    .menu-button {
-        cursor: pointer;
+    .logo {
+        width: 100%;
+        margin-top: 10px;
     }
 
     .dropdown-menu {
         display: none;
     }
 
+    .a {
+        display: none;
+    }
+
+    #humber i {
+        color: black;
+        transition: color 1s ease;
+        margin-top: 20px;
+       
+    }
+
+    .box {
+        color: white;
+        flex-direction: column;
+        display: none;
+        background-color: black;
+        position: absolute;
+        width: 350px;
+        top: -5px;
+        height: 750px;
+        bottom: -145px;
+        right: -20px;
+        border-radius: 0 30px;
+        padding: 20px;
+        z-index: 999;
+        gap: 30px;
+        align-items: start;
+        
+    }
+
+    .box a:hover {
+        color: black;
+        background-color: white;
+      transition: 1s;
+        padding: 15px 100px;
+        border-radius: 20px;
+    }
+
+    #menu-toggle:checked+#humber+.header .box {
+        display: flex;
+    }
+    .home{
+      margin-top: 30px;  
+    }
+
+    .menu-button{
+        cursor: pointer;
+    }
+    .dropdown-menu li a:hover{
+       color:black;
+       border: none;
+    }
+
     .menu-button:hover+.dropdown-menu {
         display: block;
-
     }
 
     #menu-toggle:checked+#humber i {
         color: white;
 
     }
-
     .dropdown a {
-        background-color: black;
+        background-color:black;
+        padding: 5px;
         color: white;
     }
 
@@ -545,13 +605,16 @@
         display: none;
     }
 
-    .header {
-        flex-direction: column;
-        align-items: flex-end;
+    .button-products {
+        display: none;
     }
 
     .button-contact {
         display: none;
+    }
+
+    .logo {
+        width: 100%;
     }
 
     .photo-watch {
