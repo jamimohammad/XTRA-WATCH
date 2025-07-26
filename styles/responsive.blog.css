@@ -1,6 +1,5 @@
 @media (max-width: 768px) {
 
-    html,
     body {
         overflow-x: hidden;
     }
@@ -130,11 +129,6 @@
 
     }
 
-    /* #see {
-        width: 100%;
-
-    } */
-
     .background-2-first-page {
         width: 100%;
     }
@@ -200,8 +194,9 @@
     }
 
     .background-image-third {
-        width: 100%;
         margin-right: 800px;
+        width: 100%;
+        height: auto;
     }
 
     .p-3 {

@@ -14,7 +14,7 @@ body {
     padding-top: 20px;
     display: flex;
     align-items: center;
-    gap: 110px;
+    gap: 130px;
     justify-content: center;
 }
 
@@ -325,6 +325,7 @@ body {
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.01);
     opacity: 0.7;
+    display: none;
 }
 
 .title {
@@ -361,7 +362,7 @@ body {
 .body {
     display: flex;
     justify-content: center;
-    gap: 130px;
+    gap: 70px;
 }
 
 .buttons {
